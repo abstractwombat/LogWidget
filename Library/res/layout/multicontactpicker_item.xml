@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/multicontactpicker_image_width"
+        android:layout_height="@dimen/multicontactpicker_image_height"
+        android:id="@+id/multicontactpickerImageView"
+        android:layout_marginRight="@dimen/multicontactpicker_image_paddingright"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_contact_picture_holo_dark"
+        android:layout_weight="0"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/multicontactpickerName"
+        android:text="Contact Name"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:autoText="false"
+        android:layout_gravity="center_vertical|right"
+        android:gravity="center_vertical"
+        android:focusable="false"
+        android:clickable="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/multicontactpickerKey"
+        android:visibility="gone"
+        android:text="Contact Name"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:autoText="false"
+        android:layout_gravity="center_vertical|right"
+        android:gravity="center_vertical"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/multicontactpickerCheckBox"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:layout_marginRight="@dimen/multicontactpicker_check_paddingleft"/>
+</LinearLayout>

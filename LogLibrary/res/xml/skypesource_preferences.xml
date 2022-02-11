@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        android:key="skypesource_enable"
+        android:title="Enable Access"
+        android:summary="Allow the widget to read your notifications so it can populate the widget">
+        <intent android:action="android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS" />
+    </Preference>
+    <PreferenceCategory
+            android:title="Contents"
+            android:key="skypesource_category_contents">
+        <EditTextPreference
+                android:key="skypesource_count"
+                android:title="Count"
+                android:numeric="integer"
+                android:summary="Number of items to show"
+                android:defaultValue="@integer/skype_source_default_count" />
+        <EditTextPreference
+            android:defaultValue="@integer/skype_source_default_maxlines"
+            android:key="skypesource_maxlines"
+            android:numeric="integer"
+            android:summary="Maximum number of lines of text to display"
+            android:title="Maximum lines"/>
+        <CheckBoxPreference
+            android:key="skypesource_show_contact_image"
+            android:title="Show Image"
+            android:summary="Show the contact's image"
+            android:defaultValue="@bool/skype_source_default_showimage" />
+        <CheckBoxPreference
+            android:key="skypesource_show_emblem"
+            android:title="Show Emblem"
+            android:summary="Show a Skype icon on the contact image"
+            android:defaultValue="@bool/skype_source_default_showemblem" />
+        <CheckBoxPreference
+            android:key="skypesource_show_name"
+            android:title="Show Name"
+            android:summary="Show the contact's name"
+            android:defaultValue="@bool/skype_source_default_showname" />
+        <CheckBoxPreference
+            android:key="skypesource_long_date"
+            android:title="Long Date Format"
+            android:summary="Show a longer date format"
+            android:defaultValue="@bool/skype_source_default_longdate" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Appearance"
+        android:key="skypesource_category_appearance">
+        <com.abstractwombat.library.ResourcePreference
+            android:defaultValue="0"
+            android:key="skypesource_bubblestyle"
+            android:summary="Set the style of message's background image."
+            app:drawables="@array/bubble_styles"
+            android:title="Message bubble style" />
+        <com.github.danielnilsson9.colorpickerview.preference.ColorPreference
+            android:defaultValue="@color/skype_source_default_bubblecolor"
+            android:key="skypesource_bubblecolor"
+            android:summary="Set the color of the message bubble."
+            android:title="Message background color"
+            app:colorpickerview__alphaChannelVisible="true" />
+        <com.github.danielnilsson9.colorpickerview.preference.ColorPreference
+            android:defaultValue="@color/skype_source_default_rowcolor"
+            android:key="skypesource_rowcolor"
+            android:summary="Set the background color of the whole row."
+            app:colorpickerview__alphaChannelVisible="true"
+            android:title="Row color" />
+        <com.github.danielnilsson9.colorpickerview.preference.ColorPreference
+            android:defaultValue="@color/skype_source_default_textcolor"
+            android:key="skypesource_textcolor"
+            android:summary="Set the color of the text."
+            app:colorpickerview__alphaChannelVisible="false"
+            android:title="Text color" />
+        <EditTextPreference
+            android:defaultValue="@integer/skype_source_default_textsize"
+            android:key="skypesource_textsize"
+            android:numeric="decimal"
+            android:summary="Size of the text"
+            android:title="Text Size"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,25 @@
+include 'Library'
+include 'LogLibrary'
+include 'LogWidget'
+include 'ContactWidget'
+
+include ':contacts'
+project(':contacts').projectDir = new File('libraries/contacts')
+
+include ':chips'
+project(':chips').projectDir = new File('libraries/chips')
+
+include ':images'
+project(':images').projectDir = new File('libraries/images')
+
+include ':colorPicker'
+project(':colorPicker').projectDir = new File('libraries/ColorPicker')
+
+include ':color-picker-view'
+project(':color-picker-view').projectDir = new File('libraries/color-picker-view')
+
+include ':iab'
+project(':iab').projectDir = new File('libraries/iab')
+
+include ':networking'
+project(':networking').projectDir = new File('libraries/networking')

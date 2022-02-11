@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    style="?attr/orderedlist_item"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_height="@dimen/orderedlist_itemheight">
+
+    <View
+        android:id="@+id/shadow"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:layout_height="4dp"
+        android:background="@drawable/shadow"/>
+
+    <RelativeLayout
+        android:id="@+id/imageViewStart"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewDelete"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:padding="16dp"
+            style="?attr/orderedlist_item"
+            android:visibility="gone"
+            android:src="@drawable/ic_delete_grey600_24dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewDrag"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:padding="16dp"
+            android:src="@drawable/ic_drag_grey600_24dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/imageViewFolder"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:padding="16dp"
+            style="?attr/orderedlist_item"
+            android:visibility="gone"
+            android:clickable="true"
+            android:src="@drawable/ic_folder_grey600_24dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?attr/orderedlist_text"
+        android:text="Medium Text"
+        android:id="@+id/textView"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@id/imageViewStart"
+        android:layout_toRightOf="@id/imageViewStart"
+        android:layout_centerVertical="true"
+        android:padding="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?attr/orderedlist_text"
+        android:text="Medium Text"
+        android:inputType="text"
+        android:imeActionId="2"
+        android:maxLines="1"
+        android:id="@+id/editTextViewNewItem"
+        android:visibility="gone"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@id/imageViewStart"
+        android:layout_toRightOf="@id/imageViewStart"
+        android:layout_centerVertical="true"
+        android:padding="16dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imageViewCommit"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="16dp"
+        style="?attr/orderedlist_item"
+        android:visibility="gone"
+        android:clickable="true"
+        android:src="@drawable/ic_check_grey600_24dp" />
+
+</RelativeLayout>

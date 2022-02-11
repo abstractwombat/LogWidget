@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Call Log -->
+    <dimen name="call_log_icon_margin">4dip</dimen>
+    <dimen name="call_log_inner_margin">6dip</dimen>
+    <dimen name="call_log_outer_margin">4dip</dimen>
+    <dimen name="call_log_list_contact_photo_size">50dip</dimen>
+    <dimen name="call_log_text_size">15sp</dimen>
+    <dimen name="call_log_text2_size">11sp</dimen>
+    <dimen name="call_log_call_action_width">42dip</dimen>
+    <dimen name="call_log_call_action_divider_height">30dip</dimen>
+
+    <!-- SMS Log -->
+    <dimen name="sms_log_outer_margin">4dip</dimen>
+    <dimen name="sms_log_inner_margin">6dip</dimen>
+    <dimen name="sms_log_icon_margin">4dip</dimen>
+    <dimen name="sms_log_list_contact_photo_size">50dip</dimen>
+	<dimen name="sms_log_list_messaging_emblem_size">20dip</dimen>
+    <dimen name="sms_log_text_size">15sp</dimen>
+    <dimen name="sms_log_text2_size">13sp</dimen>
+    <dimen name="sms_log_text2_5_size">11sp</dimen>
+	<dimen name="sms_log_text3_size">9sp</dimen>
+	<dimen name="sms_log_no_image_messagepadding">8sp</dimen>
+	<dimen name="sms_date_padding">8sp</dimen>
+
+    <!-- Email -->
+    <dimen name="email_outer_margin">4dip</dimen>
+    <dimen name="email_inner_margin">6dip</dimen>
+    <dimen name="email_icon_margin">4dip</dimen>
+    <dimen name="email_list_contact_photo_size">40dip</dimen>
+    <dimen name="email_list_messaging_emblem_size">20dip</dimen>
+    <dimen name="email_text_size">15sp</dimen>
+    <dimen name="email_text2_size">13sp</dimen>
+    <dimen name="email_text3_size">11sp</dimen>
+    <dimen name="email_no_image_messagepadding">8sp</dimen>
+    <dimen name="email_date_padding">8sp</dimen>
+
+    <!-- Settings Row -->
+    <dimen name="settings_inner_margin">4dip</dimen>
+    <dimen name="settings_outer_margin">4dip</dimen>
+    <dimen name="settings_list_contact_photo_size">50dip</dimen>
+    <dimen name="settings_text_size">15sp</dimen>
+    <dimen name="settings_refresh_width">42dip</dimen>
+	<dimen name="settings_icon_width">35dip</dimen>
+    <dimen name="settings_divider_height">30dip</dimen>
+
+	<!-- Loading Row -->
+    <dimen name="loading_inner_margin">4dip</dimen>
+	<dimen name="loading_outer_margin">4dip</dimen>
+    <dimen name="loading_text_size">15sp</dimen>
+
+    <!-- Configuration Row -->
+    <dimen name="source_row_text_size">22sp</dimen>
+    <dimen name="source_row_text_size2">15sp</dimen>
+
+    <!-- Banner -->
+    <dimen name="banner_max_height">75dp</dimen>
+    <dimen name="banner_image_height">60dp</dimen>
+    <dimen name="banner_text_size">11sp</dimen>
+    <dimen name="banner_top_padding">42dp</dimen>
+
+    <!-- Top Level Configuration Items -->
+    <dimen name="configuration_icon_size">100dp</dimen>
+
+    <!-- Marketing -->
+    <dimen name="marketing_toast_image_height">40dp</dimen>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">All Messages Widget</string>
+
+    <string name="multiple_widget_support">Only one widget is allowed in the free version. Please touch here to upgrade.</string>
+    <string name="multiple_widget_support_dialog_title">Upgrade</string>
+    <string name="multiple_widget_support_dialog">Only one widget is allowed in the free version. Please upgrade.</string>
+    <string name="multiple_widget_support_dialog_upgrade_button">Upgrade</string>
+    <string name="multiple_widget_support_dialog_close_button">Close</string>
+    <string name="ad_unit_id">ca-app-pub-9272293966580748/8357564315</string>
+
+    <string name="banner_initial_tip">Scroll all the way to the top for the settings</string>
+    <string name="banner_initial_tip_bottom">Scroll all the way to the bottom for the settings</string>
+    <string name="about_message">This app was developed by <a href="http://www.abstractwombat.com">Abstract Wombat</a>. We have some other apps, you should <a href="https://play.google.com/store/apps/developer?id=Abstract+Wombat">check them out</a>.</string>
+</resources>

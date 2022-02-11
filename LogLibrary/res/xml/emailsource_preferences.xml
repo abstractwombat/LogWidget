@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+            android:title="Contents">
+        <EditTextPreference
+                android:key="emailsource_count"
+                android:title="Count"
+                android:numeric="integer"
+                android:summary="Number of email items to show"
+                android:defaultValue="@integer/email_source_default_count" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Server">
+        <EditTextPreference
+                android:key="emailsource_server"
+                android:title="Server"
+                android:summary="Enter the IMAP servername. For example: imap.gmail.com"
+                android:defaultValue="@string/email_source_default_server" />
+        <EditTextPreference
+                android:key="emailsource_port"
+                android:title="Port Number"
+                android:numeric="integer"
+                android:summary="The server port to use (leave as 143 if not sure)"
+                android:defaultValue="@integer/email_source_default_port" />
+        <EditTextPreference
+                android:key="emailsource_folder"
+                android:title="Folder"
+                android:summary="The server's folder to use. For example: Inbox."
+                android:defaultValue="@string/email_source_default_folder" />
+        <EditTextPreference
+                android:key="emailsource_username"
+                android:title="Username"
+                android:summary="Username to use to login to the server"
+                android:defaultValue="@string/email_source_default_username" />
+        <EditTextPreference
+                android:key="emailsource_password"
+                android:title="Password"
+                android:summary="Password to use to login to the server (this will be encrypted)" />
+        <Preference
+            android:key="emailsource_test"
+            android:title="Test Login"
+            android:summary="Touch here to test your login information" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="OrderedList">
+        <attr name="orderedlist_text" format="reference"/>
+        <attr name="orderedlist_item" format="reference"/>
+        <attr name="orderedlist_toolbar" format="reference"/>
+        <attr name="orderedlist_toolbarButton" format="reference"/>
+    </declare-styleable>
+
+    <dimen name="orderedlist_listpadding">8dp</dimen>
+    <dimen name="orderedlist_itemheight">64dp</dimen>
+
+    <integer name="orderedlist_match_parent">-1</integer>
+    <dimen name="orderedlist_listwidth">@integer/orderedlist_match_parent</dimen>
+
+    <item type="id" name="folder_collapse_state" />
+    <color name="orderedlist_grey">#f0f0f0</color>
+    <string name="orderedlist_addnewtext">Create new item</string>
+    <string name="orderedlist_addnewfoldertext">Create new folder</string>
+    <string name="orderedlist_savebuttontext">Save</string>
+
+</resources>

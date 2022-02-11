@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NonGridView">
+        <attr name="minColumnWidth" format="dimension"/>
+        <attr name="columnCount" format="integer"/>
+        <attr name="columnCountPortrait" format="integer"/>
+        <attr name="columnCountLandscape" format="integer"/>
+        <attr name="gridPadding" format="dimension"/>
+        <attr name="gridPaddingVertical" format="dimension"/>
+        <attr name="gridPaddingHorizontal" format="dimension"/>
+        <attr name="itemLongPressDragHandle" format="integer"/>
+        <attr name="itemDragHandle" format="integer"/>
+    </declare-styleable>
+</resources>

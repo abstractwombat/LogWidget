@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/filter_action"
+        android:title="Filter by Contact"
+        android:icon="@drawable/ic_group_white_36dp"
+        android:visible="false"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/back_color"
+        android:title="Background color"
+        android:icon="@drawable/ic_invert_colors_white_36dp"
+        android:visible="true"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/direction"
+        android:title="Widget fill direction"
+        android:icon="@drawable/ic_arrow_up_bold_circle_outline_white_36dp"
+        android:visible="true"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/spacing"
+        android:title="Spacing"
+        android:icon="@drawable/ic_format_line_spacing_white_36dp"
+        android:visible="true"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/upgrade"
+        android:title="Go Premium"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/about_action"
+        android:title="About"
+        android:icon="@drawable/ic_group_white_36dp"
+        app:showAsAction="never"
+        />
+
+</menu>

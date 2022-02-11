@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+            android:title="Contents">
+        <EditTextPreference
+                android:key="calllogsource_count"
+                android:title="Count"
+                android:numeric="integer"
+                android:summary="Number of call log items to show"
+                android:defaultValue="@integer/call_log_source_default_count" />
+        <CheckBoxPreference
+                android:key="calllogsource_show_incoming"
+                android:title="Show Incoming Calls"
+                android:summary="Include calls that you receivecd"
+                android:defaultValue="@bool/call_log_source_default_showincoming" />
+        <CheckBoxPreference
+                android:key="calllogsource_show_outgoing"
+                android:title="Show Outgoing Calls"
+                android:summary="Include calls that you made"
+                android:defaultValue="@bool/call_log_source_default_showoutgoing" />
+        <CheckBoxPreference
+                android:key="calllogsource_show_missed"
+                android:title="Show Missed Calls"
+                android:summary="Include calls that you missed"
+                android:defaultValue="@bool/call_log_source_default_showmissed" />
+        <CheckBoxPreference
+            android:key="calllogsource_show_contact_image"
+            android:title="Show Image"
+            android:summary="Show the contact's image"
+            android:defaultValue="@bool/call_log_source_default_showimage" />
+        <CheckBoxPreference
+            android:key="calllogsource_show_emblem"
+            android:title="Show Emblem"
+            android:summary="Show a call icon on the contact image"
+            android:defaultValue="@bool/call_log_source_default_showemblem" />
+        <CheckBoxPreference
+            android:key="calllogsource_show_name"
+            android:title="Show Name"
+            android:summary="Show the contact's name"
+            android:defaultValue="@bool/call_log_source_default_showname" />
+        <CheckBoxPreference
+            android:key="calllogsource_show_call_button"
+            android:title="Show Call Button"
+            android:summary="Show a button to quickly call back the contact"
+            android:defaultValue="@bool/call_log_source_default_showcallbutton" />
+        <CheckBoxPreference
+            android:key="calllogsource_long_date"
+            android:title="Long Date Format"
+            android:summary="Show a longer date format"
+            android:defaultValue="@bool/call_log_source_default_longdate" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Appearance"
+        android:key="calllogsource_category_appearance">
+        <com.abstractwombat.library.ResourcePreference
+            android:defaultValue="0"
+            android:key="calllogsource_bubblestyle"
+            android:summary="Set the style of message's background image."
+            app:drawables="@array/bubble_styles"
+            android:title="Message bubble style" />
+        <com.github.danielnilsson9.colorpickerview.preference.ColorPreference
+            android:defaultValue="@color/call_log_source_default_bubblecolor"
+            android:key="calllogsource_bubblecolor"
+            android:summary="Set the color of the call box."
+            android:title="Call box background color"
+            app:colorpickerview__alphaChannelVisible="true" />
+        <com.github.danielnilsson9.colorpickerview.preference.ColorPreference
+            android:defaultValue="@color/call_log_source_default_rowcolor"
+            android:key="calllogsource_rowcolor"
+            android:summary="Set the background color of the whole row."
+            app:colorpickerview__alphaChannelVisible="true"
+            android:title="Row color" />
+        <com.github.danielnilsson9.colorpickerview.preference.ColorPreference
+            android:defaultValue="@color/call_log_source_default_textcolor"
+            android:key="calllogsource_textcolor"
+            android:summary="Set the color of the text."
+            app:colorpickerview__alphaChannelVisible="false"
+            android:title="Text color" />
+        <EditTextPreference
+            android:defaultValue="@integer/call_log_source_default_textsize"
+            android:key="calllogsource_textsize"
+            android:numeric="decimal"
+            android:summary="Size of the text"
+            android:title="Text Size"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

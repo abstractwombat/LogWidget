@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="default_theme">2</integer>
+    <integer name="default_spacing">6</integer>
+    <bool name="scroll_from_bottom">true</bool>
+
+	<!-- Call Log Source -->
+	<bool name="call_log_source_default_showimage">true</bool>
+    <bool name="call_log_source_default_showemblem">false</bool>
+    <bool name="call_log_source_default_showname">true</bool>
+	<bool name="call_log_source_default_showcallbutton">true</bool>
+    <bool name="call_log_source_default_showincoming">true</bool>
+    <bool name="call_log_source_default_showoutgoing">true</bool>
+    <bool name="call_log_source_default_showmissed">true</bool>
+	<bool name="call_log_source_default_longdate">false</bool>
+	<integer name="call_log_source_default_count">10</integer>
+    <integer name="call_log_source_default_maxlines">4</integer>
+    <color name="call_log_source_default_rowcolor">#00FFFFFF</color>
+    <color name="call_log_source_default_textcolor">@color/sms_log_text_material</color>
+    <color name="call_log_source_default_bubblecolor">#FFFFFFFF</color>
+    <integer name="call_log_source_default_textsize">15</integer>
+
+	<!-- SMS Log Source -->
+	<bool name="sms_log_source_default_showimage">true</bool>
+    <bool name="sms_log_source_default_showemblem">false</bool>
+    <bool name="sms_log_source_default_showname">true</bool>
+	<bool name="sms_log_source_default_showincoming">true</bool>
+    <bool name="sms_log_source_default_showoutgoing">false</bool>
+    <bool name="sms_log_source_default_showmms">false</bool>
+	<bool name="sms_log_source_default_longdate">false</bool>
+	<integer name="sms_log_source_default_count">10</integer>
+    <integer name="sms_log_source_default_maxlines">4</integer>
+    <color name="sms_log_source_default_rowcolor">#00FFFFFF</color>
+    <color name="sms_log_source_default_textcolor">@color/sms_log_text_material</color>
+    <color name="sms_log_source_default_bubblecolor">#FFFFFFFF</color>
+    <integer name="sms_log_source_default_textsize">15</integer>
+
+    <!-- Email Source -->
+    <string name="email_source_default_server">imap.gmail.com</string>
+    <integer name="email_source_default_port">143</integer>
+    <string name="email_source_default_folder">Inbox</string>
+    <string name="email_source_default_username">\@gmail.com</string>
+    <integer name="email_source_default_count">5</integer>
+    <integer name="email_source_default_maxlines">4</integer>
+
+    <!-- Hangouts Source -->
+    <bool name="hangouts_source_default_showimage">true</bool>
+    <bool name="hangouts_source_default_showemblem">true</bool>
+    <bool name="hangouts_source_default_showname">true</bool>
+    <bool name="hangouts_source_default_showsms">false</bool>
+    <bool name="hangouts_source_default_longdate">false</bool>
+    <integer name="hangouts_source_default_count">10</integer>
+    <integer name="hangouts_source_default_maxlines">4</integer>
+    <color name="hangouts_source_default_rowcolor">#00FFFFFF</color>
+    <color name="hangouts_source_default_textcolor">@color/sms_log_text_material</color>
+    <color name="hangouts_source_default_bubblecolor">#FFFFFFFF</color>
+    <integer name="hangouts_source_default_textsize">15</integer>
+
+    <!-- WhatsApp Source -->
+    <bool name="whatsapp_source_default_showimage">true</bool>
+    <bool name="whatsapp_source_default_showemblem">true</bool>
+    <bool name="whatsapp_source_default_showname">true</bool>
+    <bool name="whatsapp_source_default_longdate">false</bool>
+    <integer name="whatsapp_source_default_count">10</integer>
+    <integer name="whatsapp_source_default_maxlines">4</integer>
+    <color name="whatsapp_source_default_rowcolor">#00FFFFFF</color>
+    <color name="whatsapp_source_default_textcolor">@color/sms_log_text_material</color>
+    <color name="whatsapp_source_default_bubblecolor">#FFFFFFFF</color>
+    <integer name="whatsapp_source_default_textsize">15</integer>
+
+    <!-- Facebook Messenger Source -->
+    <bool name="facebookmessenger_source_default_showimage">true</bool>
+    <bool name="facebookmessenger_source_default_showemblem">true</bool>
+    <bool name="facebookmessenger_source_default_showname">true</bool>
+    <bool name="facebookmessenger_source_default_longdate">false</bool>
+    <integer name="facebookmessenger_source_default_count">10</integer>
+    <integer name="facebookmessenger_source_default_maxlines">4</integer>
+    <color name="facebookmessenger_source_default_rowcolor">#00FFFFFF</color>
+    <color name="facebookmessenger_source_default_textcolor">@color/sms_log_text_material</color>
+    <color name="facebookmessenger_source_default_bubblecolor">#FFFFFFFF</color>
+    <integer name="facebookmessenger_source_default_textsize">15</integer>
+
+    <!-- Viber Source -->
+    <bool name="viber_source_default_showimage">true</bool>
+    <bool name="viber_source_default_showemblem">true</bool>
+    <bool name="viber_source_default_showname">true</bool>
+    <bool name="viber_source_default_longdate">false</bool>
+    <integer name="viber_source_default_count">10</integer>
+    <integer name="viber_source_default_maxlines">4</integer>
+    <color name="viber_source_default_rowcolor">#00FFFFFF</color>
+    <color name="viber_source_default_textcolor">@color/sms_log_text_material</color>
+    <color name="viber_source_default_bubblecolor">#FFFFFFFF</color>
+    <integer name="viber_source_default_textsize">15</integer>
+
+    <!-- WeChat Source -->
+    <bool name="wechat_source_default_showimage">true</bool>
+    <bool name="wechat_source_default_showemblem">true</bool>
+    <bool name="wechat_source_default_showname">true</bool>
+    <bool name="wechat_source_default_longdate">false</bool>
+    <integer name="wechat_source_default_count">10</integer>
+    <integer name="wechat_source_default_maxlines">4</integer>
+    <color name="wechat_source_default_rowcolor">#00FFFFFF</color>
+    <color name="wechat_source_default_textcolor">@color/sms_log_text_material</color>
+    <color name="wechat_source_default_bubblecolor">#FFFFFFFF</color>
+    <integer name="wechat_source_default_textsize">15</integer>
+
+    <!-- Skype Source -->
+    <bool name="skype_source_default_showimage">true</bool>
+    <bool name="skype_source_default_showemblem">true</bool>
+    <bool name="skype_source_default_showname">true</bool>
+    <bool name="skype_source_default_longdate">false</bool>
+    <integer name="skype_source_default_count">10</integer>
+    <integer name="skype_source_default_maxlines">4</integer>
+    <color name="skype_source_default_rowcolor">#00FFFFFF</color>
+    <color name="skype_source_default_textcolor">@color/sms_log_text_material</color>
+    <color name="skype_source_default_bubblecolor">#FFFFFFFF</color>
+    <integer name="skype_source_default_textsize">15</integer>
+    
+    <!-- Combined Source -->
+    <integer name="combined_source_default_count">15</integer>
+
+</resources>

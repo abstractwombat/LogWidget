@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:id="@+id/sms_row"
+	android:clickable="true"
+    android:gravity="right|bottom"
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="1dp">
+<LinearLayout
+    android:id="@+id/sms_row_inner"
+	android:background="@drawable/highlight_statelist"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:paddingTop="@dimen/sms_log_inner_margin"
+	android:paddingBottom="@dimen/sms_log_inner_margin"
+	android:layout_marginLeft="@dimen/sms_log_outer_margin"
+	android:layout_marginRight="@dimen/sms_log_outer_margin"
+	android:orientation="horizontal"
+	android:gravity="bottom|right"
+>
+
+	<LinearLayout
+	    android:id="@+id/sms_text_stack"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:background="@drawable/msg_bubble_right"
+		android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/sms_log_icon_margin"
+        android:paddingRight="10dp"
+		android:gravity="right|bottom"
+		android:clickable="false"
+	>
+		<TextView
+			android:id="@+id/message"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:clickable="false"
+            android:ellipsize="end"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:textColor="@color/sms_log_text2_dark"
+            android:textSize="@dimen/sms_log_text_size"
+		/>
+		<TextView
+		    android:id="@+id/date"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:clickable="false"
+		    android:singleLine="true"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:textColor="@color/sms_log_text2_material"
+            android:textSize="@dimen/sms_log_text2_5_size"
+            android:layout_gravity="left"
+		/>
+	</LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/sms_row_contact_image_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_weight="0"
+        >
+        <ImageView
+            android:id="@+id/sms_row_contact_image"
+            android:layout_width="@dimen/sms_log_list_contact_photo_size"
+            android:layout_height="@dimen/sms_log_list_contact_photo_size"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            />
+        <ImageView
+            android:id="@+id/sms_row_contact_image_touch"
+            android:layout_width="@dimen/sms_log_list_contact_photo_size"
+            android:layout_height="@dimen/sms_log_list_contact_photo_size"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:background="@drawable/highlight_statelist_material"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
+</LinearLayout>
