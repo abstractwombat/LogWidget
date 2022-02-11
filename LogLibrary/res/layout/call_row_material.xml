@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/sms_log_outer_margin"
+    android:layout_marginRight="@dimen/sms_log_outer_margin"
+    android:clickable="false"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/background"
+        android:layout_alignBottom="@+id/bubble"
+        android:layout_alignTop="@+id/contact_image"
+        android:layout_alignLeft="@id/contact_image"
+        android:layout_alignStart="@id/contact_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="2dp"
+        />
+
+    <ImageView
+        android:id="@id/bubble"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/text_stack"
+        android:layout_alignEnd="@id/text_stack"
+        android:layout_alignRight="@id/text_stack"
+        android:layout_alignTop="@id/contact_image"
+        android:layout_below="@id/text_stack"
+        android:layout_toEndOf="@id/contact_image"
+        android:layout_toRightOf="@id/contact_image"
+        android:clickable="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/call_box"
+        android:tint="#AA0000AA"
+        />
+
+    <RelativeLayout
+        android:id="@id/text_stack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@id/contact_image"
+        android:layout_toRightOf="@id/contact_image"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="false"
+        android:gravity="center_vertical|start"
+        android:minHeight="53dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:clickable="false"
+            android:singleLine="true"
+            android:text="Joe Swanson"
+            android:textColor="@color/call_log_text_material"
+            android:textSize="@dimen/call_log_text_size"
+            android:paddingLeft="4dp"
+            android:paddingStart="4dp"
+            android:paddingRight="0dp"
+            android:paddingEnd="0dp"
+            android:paddingTop="0dp"/>
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:clickable="false"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="(303) 473-2938"
+            android:textColor="@color/call_log_text2_material"
+            android:textSize="@dimen/call_log_text2_size"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingEnd="4dp"
+            android:paddingStart="4dp" />
+
+        <LinearLayout
+            android:layout_below="@id/number"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/call_type_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="7dp"
+                android:clickable="false"
+                android:src="@drawable/ic_call_incoming_holo_dark"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingEnd="4dp"
+                android:paddingStart="6dp" />
+
+            <TextView
+                android:id="@+id/call_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingEnd="4dp"
+                android:paddingStart="4dp"
+                android:paddingBottom="6dp"
+                android:clickable="false"
+                android:singleLine="true"
+                android:text="4/20/2013"
+                android:textColor="@color/call_log_text2_material"
+                android:textSize="@dimen/call_log_text2_size" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/highlight"
+        android:layout_alignBottom="@id/bubble"
+        android:layout_alignTop="@id/contact_image"
+        android:layout_alignLeft="@id/contact_image"
+        android:layout_alignStart="@id/contact_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="2dp"
+        />
+
+    <ImageView
+        android:id="@+id/secondary_action_icon"
+        android:layout_width="@dimen/call_log_call_action_width"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@id/bubble"
+        android:layout_marginBottom="2dp"
+        android:paddingLeft="@dimen/call_log_inner_margin"
+        android:paddingTop="@dimen/call_log_inner_margin"
+        android:paddingBottom="@dimen/call_log_inner_margin"
+        android:paddingRight="@dimen/call_log_inner_margin"
+        android:src="@drawable/ic_audio_phone_light"
+        android:background="@drawable/highlight_statelist_material"
+        android:scaleType="fitCenter"
+        />
+
+    <ImageView
+        android:id="@id/contact_image"
+        android:layout_width="@dimen/sms_log_list_contact_photo_size"
+        android:layout_height="@dimen/sms_log_list_contact_photo_size"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        android:src="@drawable/ic_contact_picture"/>
+
+    <ImageView
+        android:id="@+id/contact_image_touch"
+        android:layout_width="@dimen/sms_log_list_contact_photo_size"
+        android:layout_height="@dimen/sms_log_list_contact_photo_size"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/highlight_statelist_material"
+        android:visibility="gone"
+        android:clickable="true"/>
+
+</RelativeLayout>

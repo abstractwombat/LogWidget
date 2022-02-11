@@ -1,0 +1,18 @@
+<resources>
+    <declare-styleable name="DurationView">
+        <attr name="timeSeconds" format="integer"/>
+        <attr name="hourLabel" format="string"/>
+
+        <attr name="textAppearanceValues" format="reference"/>
+        <attr name="textAppearanceLabels" format="reference"/>
+
+        <attr name="textSizeValues" format="dimension"/>
+        <attr name="textSizeLabels" format="dimension"/>
+
+        <attr name="textColorValues" format="color"/>
+        <attr name="textColorLabels" format="color"/>
+
+        <attr name="minuteLabel" format="string"/>
+        <attr name="secondLabel" format="string"/>
+    </declare-styleable>
+</resources>

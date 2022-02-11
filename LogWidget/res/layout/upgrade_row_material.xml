@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/upgrade_row_container"
+              android:orientation="horizontal"
+              android:background="@drawable/highlight_statelist"
+              android:gravity="left|center_vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout android:padding="8dp"
+                  android:orientation="horizontal"
+                  android:background="@drawable/call_box"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/call_log_list_contact_photo_size"
+            android:layout_height="@dimen/call_log_list_contact_photo_size"
+            android:src="@drawable/ic_launcher_play_store"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="left|center_vertical"
+            android:textColor="@color/settings_row_text_material"
+            android:text="Please upgrade"/>
+    </LinearLayout>
+</LinearLayout>

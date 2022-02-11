@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/list_view"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/widget_background_dark"
+              android:clipToPadding="false"
+              android:divider="@drawable/list_divider"
+              android:dividerHeight="8dp"
+              android:orientation="vertical"
+              android:paddingTop="@dimen/banner_top_padding" />
+
+	<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/empty_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+        android:background="@color/background_loading"
+        android:gravity="center"
+        android:text="Loading"
+        android:textColor="@color/loading_row_text_dark"
+        android:textSize="@dimen/loading_text_size"
+        android:textStyle="bold" />
+
+    <include layout="@layout/widget_banner"/>
+
+</RelativeLayout>

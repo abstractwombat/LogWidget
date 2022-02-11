@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Table">
+        <attr name="table_text" format="reference"/>
+        <attr name="table_text_small" format="reference"/>
+        <attr name="table_button" format="reference"/>
+        <attr name="table_toolbar" format="reference"/>
+        <attr name="table_toolbarButton" format="reference"/>
+        <attr name="table_floatingactionbutton" format="reference"/>
+    </declare-styleable>
+
+    <integer name="table_match_parent">-1</integer>
+    <dimen name="table_width">@integer/table_match_parent</dimen>
+    <dimen name="table_toolbar_height">110dp</dimen>
+    <!--<string name="orderedlist_addnewtext">Create new</string>-->
+    <!--<string name="orderedlist_savebuttontext">Save</string>-->
+
+</resources>

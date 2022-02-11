@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/upgrade"
+          android:title="Upgrade App"
+          android:titleCondensed="Upgrade"
+          android:icon="@drawable/ic_launcher_play_store"
+          android:showAsAction="withText|always"
+          android:visible="false">
+    </item>
+    <item android:id="@+id/theme_action"
+          android:title="Set the Color of the Widget"
+          android:titleCondensed="Color"
+          android:showAsAction="withText|ifRoom"
+          android:icon="@drawable/ic_action_color_action_icon"
+        />
+    <item android:id="@+id/filter_action"
+          android:title="Filter by Contact"
+          android:titleCondensed="Filter"
+          android:showAsAction="withText|ifRoom"
+          android:icon="@drawable/ic_group_white_36dp"
+        />
+    <item android:id="@+id/about_action"
+          android:title="About"
+          android:titleCondensed="About"
+          android:icon="@drawable/ic_launcher"
+          android:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ConfigurationActivity</string>
+	
+	<string name="settings_row_text">Settings</string>
+    <string name="loading_row_text">Loading…</string>
+    <string name="placeholder_row_text">New messages will appear here… maybe try sending someone a message?</string>
+    <string name="notitication_access_toast">You must enable "Notification Access"</string>
+
+    <string name="configuration_activity">com.abstractwombat.logwidget.ConfigurationActivity</string>
+
+    <string name="mms_warning_title">Warning</string>
+    <string name="mms_warning_message">This is an experimental feature and may not work on all devices. </string>
+    <string name="mms_warning_button">OK</string>
+</resources>

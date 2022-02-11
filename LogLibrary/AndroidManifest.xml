@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.abstractwombat.loglibrary"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23"/>
+
+    <application android:label="@string/app_name">
+        <activity
+            android:name="com.abstractwombat.loglibrary.ViewEmailActivity"
+            android:label="ViewEmail"
+            android:theme="@android:style/Theme.NoDisplay"/>
+        <receiver android:name="com.abstractwombat.loglibrary.LogReceiver"/>
+        <service
+            android:name=".WidgetUpdateService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+    </application>
+
+
+</manifest>

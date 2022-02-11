@@ -1,0 +1,188 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+	dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+    }
+}
+apply plugin: 'com.android.application'
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    compile "com.android.support:support-v13:27.1.0"
+    compile "com.android.support:appcompat-v7:27.1.0"
+    compile "com.google.android.gms:play-services-ads:11.8.0"
+    compile project(":Library")
+    compile project(":LogLibrary")
+}
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+
+    defaultConfig {
+        buildConfigField "int", "buildType", "-1"
+        buildConfigField "String", "iapProductRemoveAds", "\"\""
+        buildConfigField "String", "iapProductUnlockSources", "\"\""
+        buildConfigField "String", "iapProductAll", "\"\""
+        buildConfigField "String", "upgradePackage", "\"\""
+    }
+
+    productFlavors {
+        logwidget {
+            buildConfigField "int", "buildType", "0"
+            buildConfigField "String", "iapProductRemoveAds", "\"remove_ads\""
+            buildConfigField "String", "iapProductUnlockSources", "\"unlock_sources\""
+            buildConfigField "String", "iapProductAll", "\"all\""
+            buildConfigField "String", "upgradePackage", "\"\""
+            applicationId "com.abstractwombat.logwidget"
+            versionCode = 26
+            versionName = "4.2.1"
+        }
+        smswidget {
+            buildConfigField "int", "buildType", "1"
+            buildConfigField "String", "iapProductRemoveAds", "\"remove_ads\""
+            buildConfigField "String", "upgradePackage", "\"com.abstractwombat.logwidget\""
+            applicationId "com.abstractwombat.smswidget"
+            versionCode = 23
+            versionName = "2.8"
+        }
+        callwidget {
+            buildConfigField "int", "buildType", "2"
+            buildConfigField "String", "iapProductRemoveAds", "\"remove_ads\""
+            buildConfigField "String", "upgradePackage", "\"com.abstractwombat.logwidget\""
+            applicationId "com.abstractwombat.callwidget"
+            versionCode = 18
+            versionName = "2.7"
+        }
+        hangoutswidget {
+            buildConfigField "int", "buildType", "3"
+            buildConfigField "String", "iapProductRemoveAds", "\"remove_ads\""
+            buildConfigField "String", "upgradePackage", "\"com.abstractwombat.logwidget\""
+            applicationId "com.abstractwombat.hangoutswidget"
+            versionCode = 17
+            versionName = "2.6"
+        }
+        whatsappwidget {
+            buildConfigField "int", "buildType", "4"
+            buildConfigField "String", "iapProductRemoveAds", "\"remove_ads\""
+            buildConfigField "String", "upgradePackage", "\"com.abstractwombat.logwidget\""
+            applicationId "com.abstractwombat.whatsappwidget"
+            versionCode = 18
+            versionName = "2.7"
+        }
+        facebookmessengerwidget {
+            buildConfigField "int", "buildType", "5"
+            buildConfigField "String", "iapProductRemoveAds", "\"remove_ads\""
+            buildConfigField "String", "upgradePackage", "\"com.abstractwombat.logwidget\""
+            applicationId "com.abstractwombat.messengerwidget"
+            versionCode = 17
+            versionName = "2.6"
+        }
+        viberwidget {
+            buildConfigField "int", "buildType", "6"
+            buildConfigField "String", "iapProductRemoveAds", "\"remove_ads\""
+            buildConfigField "String", "upgradePackage", "\"com.abstractwombat.logwidget\""
+            applicationId "com.abstractwombat.viberwidget"
+            versionCode = 4
+            versionName = "1.2"
+        }
+        wechatwidget {
+            buildConfigField "int", "buildType", "7"
+            buildConfigField "String", "iapProductRemoveAds", "\"remove_ads\""
+            buildConfigField "String", "upgradePackage", "\"com.abstractwombat.logwidget\""
+            applicationId "com.abstractwombat.wechatwidget"
+            versionCode = 4
+            versionName = "1.2"
+        }
+        skypewidget {
+            buildConfigField "int", "buildType", "8"
+            buildConfigField "String", "iapProductRemoveAds", "\"remove_ads\""
+            buildConfigField "String", "upgradePackage", "\"com.abstractwombat.logwidget\""
+            applicationId "com.abstractwombat.skypewidget"
+            versionCode = 4
+            versionName = "1.2"
+        }
+
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+        logwidget {
+            manifest.srcFile 'AndroidManifest-log.xml'
+        }
+        smswidget {
+            manifest.srcFile 'AndroidManifest-sms.xml'
+            res.srcDirs = ['res-sms']
+        }
+        callwidget {
+            manifest.srcFile 'AndroidManifest-call.xml'
+            res.srcDirs = ['res-call']
+        }
+        hangoutswidget {
+            manifest.srcFile 'AndroidManifest-social.xml'
+            res.srcDirs = ['res-hangouts','res-social']
+        }
+        whatsappwidget {
+            manifest.srcFile 'AndroidManifest-social.xml'
+            res.srcDirs = ['res-whatsapp','res-social']
+        }
+        facebookmessengerwidget {
+            manifest.srcFile 'AndroidManifest-social.xml'
+            res.srcDirs = ['res-facebookmessenger','res-social']
+        }
+        viberwidget {
+            manifest.srcFile 'AndroidManifest-social.xml'
+            res.srcDirs = ['res-viber','res-social']
+        }
+        wechatwidget {
+            manifest.srcFile 'AndroidManifest-social.xml'
+            res.srcDirs = ['res-wechat','res-social']
+        }
+        skypewidget {
+            manifest.srcFile 'AndroidManifest-social.xml'
+            res.srcDirs = ['res-skype','res-social']
+        }
+
+        instrumentTest.setRoot('tests')
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+
+	signingConfigs {
+        abstractwombatSign {
+            storeFile file("../keystore")
+            storePassword "blah"
+            keyAlias "abstractwombat"
+            keyPassword "blah"
+        }
+    }
+	buildTypes {
+        debug {
+            applicationIdSuffix ".debug"
+        }
+        release {
+            minifyEnabled true
+            proguardFiles = [getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-project.txt']
+			signingConfig signingConfigs.abstractwombatSign
+       }
+    }
+
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/row"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/sms_log_outer_margin"
+    android:layout_marginRight="@dimen/sms_log_outer_margin"
+    android:clickable="true"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/background"
+        android:layout_alignBottom="@+id/bubble"
+        android:layout_alignTop="@+id/contact_image"
+        android:layout_alignRight="@id/contact_image"
+        android:layout_alignEnd="@id/contact_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="2dp"/>
+
+    <ImageView
+        android:id="@+id/bubble"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/text_stack"
+        android:layout_alignStart="@id/text_stack"
+        android:layout_alignLeft="@id/text_stack"
+        android:layout_alignTop="@+id/contact_image"
+        android:layout_below="@id/text_stack"
+        android:layout_toStartOf="@id/contact_image"
+        android:layout_toLeftOf="@id/contact_image"
+        android:paddingLeft="0dp"
+        android:scaleX="-1"
+        android:scaleType="fitXY"
+        android:src="@drawable/balloon_incoming_normal"
+        android:tint="#AA0000AA"/>
+
+    <LinearLayout
+        android:id="@id/text_stack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="11dp"
+        android:layout_toStartOf="@id/contact_image"
+        android:layout_toLeftOf="@id/contact_image"
+        android:clickable="false"
+        android:gravity="center_vertical|start"
+        android:orientation="vertical"
+        android:minHeight="53dp">
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:ellipsize="end"
+            android:paddingBottom="4dp"
+            android:paddingLeft="7dp"
+            android:paddingStart="7dp"
+            android:paddingRight="4dp"
+            android:paddingEnd="4dp"
+            android:paddingTop="4dp"
+            android:text="This is a message. This is a message. This is a message. This is a message. This is a message. This is a message. "
+            android:textColor="@color/sms_log_text_material"
+            android:textSize="@dimen/sms_log_text_size"/>
+
+        <TextView
+            android:id="@+id/meta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:paddingLeft="7dp"
+            android:paddingStart="7dp"
+            android:paddingRight="4dp"
+            android:paddingEnd="4dp"
+            android:singleLine="true"
+            android:text="Mike Hall - Tuesday, 4:20pm"
+            android:textColor="@color/sms_log_text2_material"
+            android:textSize="@dimen/sms_log_text2_5_size"
+            android:layout_marginBottom="4dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/highlight"
+        android:layout_alignBottom="@id/bubble"
+        android:layout_alignTop="@id/contact_image"
+        android:layout_alignRight="@id/contact_image"
+        android:layout_alignEnd="@id/contact_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="2dp"/>
+
+    <ImageView
+        android:id="@id/contact_image"
+        android:layout_width="@dimen/sms_log_list_contact_photo_size"
+        android:layout_height="@dimen/sms_log_list_contact_photo_size"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_contact_picture"/>
+
+    <ImageView
+        android:id="@+id/contact_image_touch"
+        android:layout_width="@dimen/sms_log_list_contact_photo_size"
+        android:layout_height="@dimen/sms_log_list_contact_photo_size"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/highlight_statelist_material"
+        android:clickable="true"/>
+
+</RelativeLayout>

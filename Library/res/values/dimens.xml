@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MultiContactPicker -->
+    <dimen name="multicontactpicker_horizontal_margin">20dip</dimen>
+    <dimen name="multicontactpicker_vertical_margin">0dp</dimen>
+    <dimen name="multicontactpicker_image_height">70dip</dimen>
+    <dimen name="multicontactpicker_image_width">70dip</dimen>
+    <dimen name="multicontactpicker_image_paddingright">10dip</dimen>
+    <dimen name="multicontactpicker_check_paddingleft">10dip</dimen>
+</resources>

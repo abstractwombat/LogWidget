@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:id="@+id/sms_row"
+	android:clickable="true"
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="1dp">
+<LinearLayout
+    android:id="@+id/sms_row_inner"
+	android:background="@drawable/highlight_statelist"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="@dimen/sms_log_inner_margin"
+	android:layout_marginBottom="@dimen/sms_log_inner_margin"
+	android:layout_marginLeft="@dimen/sms_log_outer_margin"
+	android:layout_marginRight="@dimen/sms_log_outer_margin"
+	android:orientation="horizontal"
+	android:gravity="top"
+>
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:id="@+id/sms_row_contact_image_container"
+	    >
+		<ImageView
+			android:id="@+id/sms_row_contact_image"
+			android:layout_width="@dimen/sms_log_list_contact_photo_size"
+			android:layout_height="@dimen/sms_log_list_contact_photo_size"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true"
+			android:scaleType="centerCrop"
+ 		/>
+		<ImageView
+			android:id="@+id/sms_row_contact_image_touch"
+			android:layout_width="@dimen/sms_log_list_contact_photo_size"
+			android:layout_height="@dimen/sms_log_list_contact_photo_size"
+			android:layout_alignParentLeft="true"
+			android:layout_centerVertical="true"
+			android:clickable="true"
+		    android:background="@drawable/highlight_statelist_material"
+		/>
+	</RelativeLayout>
+
+	<LinearLayout
+	    android:id="@+id/sms_text_stack"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:background="@drawable/msg_bubble_facebook"
+		android:layout_marginLeft="4dp"
+		android:paddingLeft="0dp"
+		android:orientation="vertical"
+		android:gravity="center_vertical|left"
+		android:clickable="false"
+	>
+		<TextView
+			android:id="@+id/message"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:clickable="false"
+			android:ellipsize="end"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+			android:textColor="@color/sms_log_text_material"
+			android:textSize="@dimen/sms_log_text_size"
+		/>
+		<TextView
+		    android:id="@+id/date"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:clickable="false"
+		    android:singleLine="true"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+		    android:textColor="@color/sms_log_text2_material"
+		    android:textSize="@dimen/sms_log_text2_5_size"
+		/>		
+	</LinearLayout>	
+
+</LinearLayout>
+</LinearLayout>

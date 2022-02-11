@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/upgrade"
+          android:title="Upgrade App"
+          android:titleCondensed="Upgrade"
+          android:icon="@drawable/ic_launcher_play_store"
+          android:showAsAction="withText|always"
+		  android:visible="false">
+	</item>
+
+    <item android:id="@+id/add_source"
+          android:title="Add Source"
+          android:titleCondensed="Add"
+          android:icon="@drawable/ic_add_source"
+          android:showAsAction="withText|always">
+	</item>
+
+    <item android:id="@+id/about_action"
+          android:title="About"
+          android:titleCondensed="About"
+          android:icon="@drawable/ic_launcher"
+          android:showAsAction="never" />
+
+</menu>

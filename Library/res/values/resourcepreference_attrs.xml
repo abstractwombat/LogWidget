@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="resource_preference">
+        <attr name="drawables" format="reference" />
+    </declare-styleable>
+
+</resources>

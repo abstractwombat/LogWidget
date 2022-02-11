@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<item type="id" name="call_log_source_id" />
+	<string name="call_log_source_class">com.abstractwombat.loglibrary.CallLogSource</string>
+	<string name="call_log_source_config_class">com.abstractwombat.loglibrary.CallLogSourceConfig</string>
+	<string name="call_log_source_label">Call Log</string>
+	<string name="call_log_source_fragment">com.abstractwombat.loglibrary.CallLogSourceFragment</string>
+    <integer name="call_log_source_view_types">2</integer>
+
+	<item type="id" name="sms_log_source_id" />
+	<string name="sms_log_source_class">com.abstractwombat.loglibrary.SMSLogSource</string>
+	<string name="sms_log_source_config_class">com.abstractwombat.loglibrary.SMSLogSourceConfig</string>
+	<string name="sms_log_source_label">Text Messages (SMS)</string>
+	<string name="sms_log_source_fragment">com.abstractwombat.loglibrary.SMSLogSourceFragment</string>
+    <integer name="sms_log_source_view_types">6</integer>
+
+    <item type="id" name="email_source_id" />
+    <string name="email_source_class">com.abstractwombat.loglibrary.EmailSource</string>
+    <string name="email_source_config_class">com.abstractwombat.loglibrary.EmailSourceConfig</string>
+    <string name="email_source_label">Email</string>
+    <string name="email_source_fragment">com.abstractwombat.loglibrary.EmailSourceFragment</string>
+    <integer name="email_source_view_types">0</integer>
+
+    <item type="id" name="hangouts_source_id" />
+    <string name="hangouts_source_class">com.abstractwombat.loglibrary.HangoutsSource</string>
+    <string name="hangouts_source_config_class">com.abstractwombat.loglibrary.HangoutsSourceConfig</string>
+    <string name="hangouts_source_label">Hangouts</string>
+    <string name="hangouts_source_fragment">com.abstractwombat.loglibrary.HangoutsSourceFragment</string>
+    <integer name="hangouts_source_view_types">0</integer>
+
+    <item type="id" name="whatsapp_source_id" />
+    <string name="whatsapp_source_class">com.abstractwombat.loglibrary.WhatsAppSource</string>
+    <string name="whatsapp_source_config_class">com.abstractwombat.loglibrary.WhatsAppSourceConfig</string>
+    <string name="whatsapp_source_label">WhatsApp</string>
+    <string name="whatsapp_source_fragment">com.abstractwombat.loglibrary.WhatsAppSourceFragment</string>
+    <integer name="whatsapp_source_view_types">0</integer>
+
+    <item type="id" name="facebookmessenger_source_id" />
+    <string name="facebookmessenger_source_class">com.abstractwombat.loglibrary.FacebookMessengerSource</string>
+    <string name="facebookmessenger_source_config_class">com.abstractwombat.loglibrary.FacebookMessengerSourceConfig</string>
+    <string name="facebookmessenger_source_label">Facebook Messenger</string>
+    <string name="facebookmessenger_source_fragment">com.abstractwombat.loglibrary.FacebookMessengerSourceFragment</string>
+    <integer name="facebookmessenger_source_view_types">0</integer>
+
+    <item type="id" name="viber_source_id" />
+    <string name="viber_source_class">com.abstractwombat.loglibrary.ViberSource</string>
+    <string name="viber_source_config_class">com.abstractwombat.loglibrary.ViberSourceConfig</string>
+    <string name="viber_source_label">Viber</string>
+    <string name="viber_source_fragment">com.abstractwombat.loglibrary.ViberSourceFragment</string>
+    <integer name="viber_source_view_types">0</integer>
+
+    <item type="id" name="wechat_source_id" />
+    <string name="wechat_source_class">com.abstractwombat.loglibrary.WeChatSource</string>
+    <string name="wechat_source_config_class">com.abstractwombat.loglibrary.WeChatSourceConfig</string>
+    <string name="wechat_source_label">WeChat</string>
+    <string name="wechat_source_fragment">com.abstractwombat.loglibrary.WeChatSourceFragment</string>
+    <integer name="wechat_source_view_types">0</integer>
+
+    <item type="id" name="skype_source_id" />
+    <string name="skype_source_class">com.abstractwombat.loglibrary.SkypeSource</string>
+    <string name="skype_source_config_class">com.abstractwombat.loglibrary.SkypeSourceConfig</string>
+    <string name="skype_source_label">Skype</string>
+    <string name="skype_source_fragment">com.abstractwombat.loglibrary.SkypeSourceFragment</string>
+    <integer name="skype_source_view_types">0</integer>
+
+    <array name="source_id_array">
+		<item>@id/call_log_source_id</item>
+		<item>@id/sms_log_source_id</item>
+        <item>@id/email_source_id</item>
+        <item>@id/hangouts_source_id</item>
+        <item>@id/whatsapp_source_id</item>
+        <item>@id/facebookmessenger_source_id</item>
+        <item>@id/viber_source_id</item>
+        <item>@id/wechat_source_id</item>
+        <item>@id/skype_source_id</item>
+    </array>
+	
+	<string-array name="source_label_array">
+		<item>@string/call_log_source_label</item>
+        <item>@string/sms_log_source_label</item>
+        <item>@string/email_source_label</item>
+        <item>@string/hangouts_source_label</item>
+        <item>@string/whatsapp_source_label</item>
+        <item>@string/facebookmessenger_source_label</item>
+        <item>@string/viber_source_label</item>
+        <item>@string/wechat_source_label</item>
+        <item>@string/skype_source_label</item>
+    </string-array>
+	
+	<string-array name="source_class_array">
+		<item>@string/call_log_source_class</item>
+        <item>@string/sms_log_source_class</item>
+        <item>@string/email_source_class</item>
+        <item>@string/hangouts_source_class</item>
+        <item>@string/whatsapp_source_class</item>
+        <item>@string/facebookmessenger_source_class</item>
+        <item>@string/viber_source_class</item>
+        <item>@string/wechat_source_class</item>
+        <item>@string/skype_source_class</item>
+    </string-array>
+	
+	<string-array name="source_config_class_array">
+		<item>@string/call_log_source_config_class</item>
+        <item>@string/sms_log_source_config_class</item>
+        <item>@string/email_source_config_class</item>
+        <item>@string/hangouts_source_config_class</item>
+        <item>@string/whatsapp_source_config_class</item>
+        <item>@string/facebookmessenger_source_config_class</item>
+        <item>@string/viber_source_config_class</item>
+        <item>@string/wechat_source_config_class</item>
+        <item>@string/skype_source_config_class</item>
+    </string-array>
+	
+	<string-array name="source_fragment_array">
+		<item>@string/call_log_source_fragment</item>
+        <item>@string/sms_log_source_fragment</item>
+        <item>@string/email_source_fragment</item>
+        <item>@string/hangouts_source_fragment</item>
+        <item>@string/whatsapp_source_fragment</item>
+        <item>@string/facebookmessenger_source_fragment</item>
+        <item>@string/viber_source_fragment</item>
+        <item>@string/wechat_source_fragment</item>
+        <item>@string/skype_source_fragment</item>
+	</string-array>
+	
+	<array name="source_icon_array">
+		<item>@drawable/ic_launcher_call</item>
+        <item>@drawable/ic_launcher_sms</item>
+        <item>@drawable/ic_launcher_email</item>
+        <item>@drawable/ic_launcher_hangouts</item>
+        <item>@drawable/ic_launcher_whatsapp</item>
+        <item>@drawable/ic_launcher_facebookmessenger</item>
+        <item>@drawable/ic_launcher_viber</item>
+        <item>@drawable/ic_launcher_wechat</item>
+        <item>@drawable/ic_launcher_skype</item>
+	</array>
+
+    <array name="source_view_types">
+        <item>@integer/call_log_source_view_types</item>
+        <item>@integer/sms_log_source_view_types</item>
+        <item>@integer/email_source_view_types</item>
+        <item>@integer/hangouts_source_view_types</item>
+        <item>@integer/hangouts_source_view_types</item>
+        <item>@integer/facebookmessenger_source_view_types</item>
+        <item>@integer/viber_source_view_types</item>
+        <item>@integer/wechat_source_view_types</item>
+        <item>@integer/skype_source_view_types</item>
+    </array>
+
+</resources>

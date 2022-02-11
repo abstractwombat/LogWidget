@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="build_types">
+        <item>0</item>   // Log
+        <item>1</item>   // SMS Log
+        <item>2</item>   // Call Log
+    </integer-array>
+
+</resources>

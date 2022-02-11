@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/source_scrollview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@null"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:padding="24dp">
+
+                <LinearLayout
+                    android:id="@+id/option_background"
+                    android:layout_width="@dimen/configuration_icon_size"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/highlight_statelist_material"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/option1_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/highlight_statelist_option1"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_invert_colors_white_36dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:maxLines="2"
+                        android:minLines="2"
+                        android:text="Background color"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/option_spacing"
+                    android:layout_width="@dimen/configuration_icon_size"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/highlight_statelist_material"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/option2_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/highlight_statelist_option2"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_format_line_spacing_white_36dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:maxLines="2"
+                        android:minLines="2"
+                        android:text="Line spacing"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/option_direction"
+                    android:layout_width="@dimen/configuration_icon_size"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/highlight_statelist_material"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/option3_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/highlight_statelist_option3"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_arrow_up_bold_circle_outline_white_36dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:maxLines="2"
+                        android:minLines="2"
+                        android:text="Fill direction"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/option_save"
+                    android:layout_width="@dimen/configuration_icon_size"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/highlight_statelist_material"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/option4_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/highlight_statelist_option4"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_content_save_white_36dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:maxLines="2"
+                        android:minLines="2"
+                        android:text="Save/Restore settings"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/option_settingsstyle"
+                    android:layout_width="@dimen/configuration_icon_size"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/highlight_statelist_material"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/option5_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/highlight_statelist_option4"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_checkbox_blank_circle_white_36dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:maxLines="2"
+                        android:minLines="2"
+                        android:text="Widget Buttons"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:id="@+id/source_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/transparent_divider"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:showDividers="middle">
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<color name="invisible">#00000000</color>
+    <color name="highlight">#1A000000</color>
+    <color name="highlight_material">#2e000000</color>
+    <color name="highlight_light">#1A000000</color>
+    <color name="highlight_dark">#1AFFFFFF</color>
+    
+    <!--- Background Colors -->
+    <color name="background_material">#00000000</color>
+	<color name="background_light">#AAFFFFFF</color>
+	<color name="background_dark">#AA000000</color>
+	<color name="background_loading">#7F000000</color>
+    
+	<color name="background_top">#DD030a0d</color>
+	<color name="background_bottom">#DD09212a</color>
+
+    <!--- Call Log Text Colors -->
+    <color name="call_log_text_material">#FF333333</color>
+    <color name="call_log_text2_material">#FF777777</color>
+
+	<color name="call_log_text_dark">#FFDDDDDD</color>
+	<color name="call_log_text2_dark">#FF888888</color>
+
+    <color name="call_log_text_light">#FF333333</color>
+    <color name="call_log_text2_light">#FF777777</color>
+
+    <!--- SMS Text Colors -->
+    <color name="sms_log_text_material">#FF333333</color>
+    <color name="sms_log_text2_material">#FF777777</color>
+
+	<color name="sms_log_text_dark">#FFDDDDDD</color>
+	<color name="sms_log_text2_dark">#FF888888</color>
+
+    <color name="sms_log_text_light">#FF333333</color>
+    <color name="sms_log_text2_light">#FF777777</color>
+
+
+    <color name="email_text">#FFFFFFFF</color>
+    <color name="email_text2">#FF888888</color>
+
+    <!--- Settings Text Colors -->
+    <color name="settings_row_text_material">#FF333333</color>
+    <color name="loading_row_text_material">#FF333333</color>
+
+    <color name="settings_row_text_dark">#FFDDDDDD</color>
+	<color name="loading_row_text_dark">#FFDDDDDD</color>
+
+    <color name="settings_row_text_light">#FF333333</color>
+    <color name="loading_row_text_light">#FF333333</color>
+
+    <!-- Banner -->
+    <color name="banner_text_color">#FF777777</color>
+
+    <!--- Marketing Colors -->
+    <color name="marketing_text">#FF333333</color>
+
+</resources>
