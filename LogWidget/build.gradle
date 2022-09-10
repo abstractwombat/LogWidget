@@ -174,15 +174,7 @@ android {
         release.setRoot('build-types/release')
     }
 
-	signingConfigs {
-        release {
-            storeFile file("../keystore")
-            storePassword 'wheatslinger'
-            keyAlias 'sbsoft'
-            keyPassword 'wheatslinger'
-        }
-    }
-	buildTypes {
+    buildTypes {
         debug {
             applicationIdSuffix ".debug"
         }
