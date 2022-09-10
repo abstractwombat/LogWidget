@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="57c838eb-e1cc-47f9-ab6f-a1bf8d917708" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Apps.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CardDB/QuickBrewCalc/build/generated/res/google-services/debug/values/values.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CardDB/QuickBrewCalc/build/generated/source/buildConfig/debug/com/abstractwombat/quickbrewcalc/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CardDB/java_pid13660.hprof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CardDB/library/build/generated/source/buildConfig/debug/com/abstractwombat/carddb/library/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ContactWidget/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ContactWidget/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ContactWidget/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ContactWidget/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ContactWidget/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ContactWidget/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LogWidget/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LogWidget/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AsteroidDodge/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../AsteroidDodge/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CardDB/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CardDB/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ContactWidget/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../ContactWidget/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Generator/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Generator/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LogLibrary/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../LogLibrary/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LogWidget/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LogWidget/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LogWidget/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LogWidget/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LogWidget/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LogWidget/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LogWidget/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CardDB/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LogWidget/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LogWidget/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LogWidget/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LogWidget/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../LogWidget/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ColorPicker/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ColorPicker/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../color-picker-view/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../color-picker-view/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../contacts/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../contacts/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iab/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../iab/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../images/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../networking/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../networking/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2EVgrNyRMA15ywQv463KbBqODNC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Signing Configs" />
+    <option name="BUILD_VARIANTS_TAB" value="Flavors" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="abstractwombatSign" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+    <option name="LAST_EDITED_FLAVOR_OR_DIMENSION" value="flav" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57c838eb-e1cc-47f9-ab6f-a1bf8d917708" name="Changes" comment="" />
+      <created>1662686367503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662686367503</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

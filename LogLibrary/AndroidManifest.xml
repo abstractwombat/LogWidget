@@ -22,6 +22,14 @@
             android:exported="true">
         </service>
     </application>
-
+    <queries>
+        <!-- Packages that will be queried -->
+        <package android:name="com.google.android.talk"/>
+        <package android:name="com.whatsapp"/>
+        <package android:name="com.tencent.mm"/>
+        <package android:name="com.viber.voip"/>
+        <package android:name="com.skype.raider"/>
+        <package android:name="com.facebook.orca"/>
+    </queries>
 
 </manifest>

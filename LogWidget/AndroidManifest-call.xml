@@ -10,7 +10,7 @@
 
     <application >
 
-        <receiver android:name="com.abstractwombat.logwidget.CallStateChangedReceiver">
+        <receiver android:name="com.abstractwombat.logwidget.CallStateChangedReceiver" android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.PHONE_STATE" />
             </intent-filter>

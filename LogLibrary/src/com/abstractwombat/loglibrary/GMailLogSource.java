@@ -32,7 +32,8 @@ public class GMailLogSource implements ALogSource {
 
 	public RemoteViews getViewAt(int position){
 		ContentValues c = this.db.getAt(TABLE_NAME, position, COLUMN_DATE, true);
-		return new RemoteViews(null);
+		return null;
+		//return new RemoteViews(null);
 	}
 
 	private SQLTableColumn[] getColumns(){

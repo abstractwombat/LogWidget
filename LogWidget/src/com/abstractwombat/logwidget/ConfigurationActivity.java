@@ -9,6 +9,7 @@ import android.appwidget.AppWidgetManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentSender;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
@@ -17,9 +18,9 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.ContactsContract;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import android.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.text.InputType;
 import android.text.method.LinkMovementMethod;
 import android.util.Log;
@@ -35,12 +36,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.abstractwombat.contacts.ContactUtilities;
-import com.abstractwombat.iab.IabHelper;
-import com.abstractwombat.iab.IabResult;
-import com.abstractwombat.iab.Inventory;
-import com.abstractwombat.iab.Purchase;
-import com.abstractwombat.iab.Security;
-import com.abstractwombat.iab.SkuDetails;
 import com.abstractwombat.images.ImageCache;
 import com.abstractwombat.images.ImageUtilities;
 import com.abstractwombat.library.RuntimePermissions;
@@ -75,9 +70,10 @@ import com.abstractwombat.loglibrary.WhatsAppSourceConfig;
 import com.android.ex.chips.BaseRecipientAdapter;
 import com.android.ex.chips.RecipientEditTextView;
 import com.android.ex.chips.RecipientEntry;
+import com.android.ex.chips.recipientchip.DrawableRecipientChip;
 import com.github.danielnilsson9.colorpickerview.dialog.ColorPickerDialogFragment;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+//import com.google.android.gms.ads.AdRequest;
+//import com.google.android.gms.ads.AdView;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -98,7 +94,7 @@ import java.util.UUID;
 
 public class ConfigurationActivity extends AppCompatActivity implements DialogInterface
         .OnClickListener, View.OnClickListener, FragmentManager.OnBackStackChangedListener, SourceListFragment.SourceListListener, SourceListFragment.OptionSelectedListener,
-        Toolbar.OnMenuItemClickListener, IabHelper.OnIabPurchaseFinishedListener, IabHelper.OnIabSetupFinishedListener, IabHelper.QueryInventoryFinishedListener, RuntimePermissions.Listener {
+        Toolbar.OnMenuItemClickListener, RuntimePermissions.Listener {
     private static final String TAG = "ConfigurationActivity";
 
     private int widgetID;
@@ -122,7 +118,6 @@ public class ConfigurationActivity extends AppCompatActivity implements DialogIn
     private View okButton;
     private View cancelButton;
     private RecipientEditTextView mChipTextView;
-    private IabHelper mIabHelper;
     private boolean mIabSetupSuccess;
     private boolean mPermissionChecked;
     private RuntimePermissions mRuntimePermissions;
@@ -138,8 +133,6 @@ public class ConfigurationActivity extends AppCompatActivity implements DialogIn
         LogSourceConfig.defaultTheme = getResources().getInteger(R.integer.default_theme);
 
         adVisibility(false);
-        mIabHelper = new IabHelper(this, IAP_VERIFICATION_URL);
-        mIabHelper.startSetup(this);
 
         // Store the build type
         SharedPreferences settings = this.getSharedPreferences(STATE_FILE, Context.MODE_MULTI_PROCESS);
@@ -275,7 +268,7 @@ public class ConfigurationActivity extends AppCompatActivity implements DialogIn
         mChipTextView = (RecipientEditTextView) findViewById(R.id.filter);
         mChipTextView.setTokenizer(new MultiAutoCompleteTextView.CommaTokenizer());
         mChipTextView.setAdapter(
-                new BaseRecipientAdapter(BaseRecipientAdapter.QUERY_TYPE_NAME, this));
+                new BaseRecipientAdapter(BaseRecipientAdapter.QUERY_TYPE_EMAIL, this));
         mChipTextView.setHint("Create a filter");
         if (sources.length > 0 && sources[0].config().lookupKeyFilter != null && sources[0].config().lookupKeyFilter.length > 0) {
             long dataId = 0;
@@ -302,7 +295,7 @@ public class ConfigurationActivity extends AppCompatActivity implements DialogIn
                         3, "Name", contactId, null, dataId++,
                         thumbnailUri,
                         true, lookupKey);
-                mChipTextView.appendRecipientEntry(entry);
+                mChipTextView.addRecipient(entry);
             }
         }
 
@@ -311,9 +304,6 @@ public class ConfigurationActivity extends AppCompatActivity implements DialogIn
     @Override
     public void onDestroy() {
         super.onDestroy();
-        if (mIabHelper != null && mIabSetupSuccess) {
-            mIabHelper.dispose();
-        }
     }
 
     @Override
@@ -724,9 +714,9 @@ public class ConfigurationActivity extends AppCompatActivity implements DialogIn
 
     private String[] getLookupKeys() {
         // Get the lookup keys
-        List<RecipientEntry> recipients = mChipTextView.getSelectedRecipients();
+        DrawableRecipientChip[] recipientChips = mChipTextView.getRecipients();
         List<String> lookupFilterList = new ArrayList<>();
-        for (RecipientEntry entry : recipients){
+        for (DrawableRecipientChip entry : recipientChips){
             lookupFilterList.add(entry.getLookupKey());
         }
         String[] lookupFilter = new String[lookupFilterList.size()];
@@ -1298,7 +1288,6 @@ public class ConfigurationActivity extends AppCompatActivity implements DialogIn
         }
 
         final Activity activity = this;
-        final IabHelper.OnIabPurchaseFinishedListener listener = this;
 
         if (BuildConfig.buildType == 0) {
             // Create a dialog to show the available IAP
@@ -1325,108 +1314,109 @@ public class ConfigurationActivity extends AppCompatActivity implements DialogIn
             builder.setItems(itemsArray, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-                    if (which == allIndex) {
-                        mIabHelper.launchPurchaseFlow(activity, BuildConfig.iapProductAll, 1003, listener);
-                    } else if (which == adsIndex) {
-                        mIabHelper.launchPurchaseFlow(activity, BuildConfig.iapProductRemoveAds, 1001, listener);
-                    } else if (which == premiumIndex) {
-                        mIabHelper.launchPurchaseFlow(activity, BuildConfig.iapProductUnlockSources, 1002, listener);
-                    }
+//                    if (which == allIndex) {
+//                        mIabHelper.launchPurchaseFlow(activity, BuildConfig.iapProductAll, 1003, listener);
+//                    } else if (which == adsIndex) {
+//                        mIabHelper.launchPurchaseFlow(activity, BuildConfig.iapProductRemoveAds, 1001, listener);
+//                    } else if (which == premiumIndex) {
+//                        mIabHelper.launchPurchaseFlow(activity, BuildConfig.iapProductUnlockSources, 1002, listener);
+//                    }
                 }
             });
             builder.create().show();
         }else{
-            mIabHelper.launchPurchaseFlow(activity, BuildConfig.iapProductRemoveAds, 1001, listener);
+//            mIabHelper.launchPurchaseFlow(activity, BuildConfig.iapProductRemoveAds, 1001, listener);
         }
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == SAVE_SETTINGS_REQUEST_CODE && resultCode == Activity.RESULT_OK) {
             if (data != null) {
                 Uri uri = data.getData();
                 Log.i(TAG, "Uri: " + uri.toString());
                 saveSettings(uri);
             }
-        }else if (requestCode == RESTORE_SETTINGS_REQUEST_CODE && resultCode == Activity.RESULT_OK) {
+        } else if (requestCode == RESTORE_SETTINGS_REQUEST_CODE && resultCode == Activity.RESULT_OK) {
             if (data != null) {
                 Uri uri = data.getData();
                 Log.i(TAG, "Uri: " + uri.toString());
                 restoreSettings(uri);
             }
-        }else {
-            mIabHelper.handleActivityResult(requestCode, resultCode, data);
+        } else {
+//            mIabHelper.handleActivityResult(requestCode, resultCode, data);
         }
     }
 
     private void adVisibility(boolean isVisible){
         // Look up the AdView as a resource and load a request.
-        View adViewV = this.findViewById(R.id.adView);
-        if (adViewV != null && adViewV instanceof AdView) {
-            if (isVisible) {
-                Log.d(TAG, "Showing ad");
-                AdView adView = (AdView) (adViewV);
-                AdRequest adRequest = new AdRequest.Builder().build();
-                adView.loadAd(adRequest);
-                adView.setVisibility(View.VISIBLE);
-            }else {
-                Log.d(TAG, "Hiding ad");
-                adViewV.setVisibility(View.GONE);
-            }
-        }
+//        View adViewV = this.findViewById(R.id.adView);
+//        if (adViewV != null && adViewV instanceof AdView) {
+//            if (isVisible) {
+//                Log.d(TAG, "Showing ad");
+//                AdView adView = (AdView) (adViewV);
+//                AdRequest adRequest = new AdRequest.Builder().build();
+//                adView.loadAd(adRequest);
+//                adView.setVisibility(View.VISIBLE);
+//            }else {
+//                Log.d(TAG, "Hiding ad");
+//                adViewV.setVisibility(View.GONE);
+//            }
+//        }
     }
 
-    @Override
-    public void onIabPurchaseFinished(IabResult result, Purchase purchase) {
-        Log.d(TAG, "Purchase finished: " + result + ", purchase: " + purchase);
-        if (purchase == null) {
-            Log.d(TAG, "Error purchasing (null purchase)");
-            purchaseFailed(null);
-            return;
-        }
-        String sku = purchase.getSku();
-
-        // if we were disposed of in the meantime, quit.
-        if (mIabHelper == null) {
-            purchaseFailed(sku);
-            return;
-        }
-
-        if (result.isFailure()) {
-            Log.d(TAG, "Error purchasing: " + result);
-            purchaseFailed(sku);
-            return;
-        }
-
-        // Verify the payload
-        String payload = purchase.getDeveloperPayload();
-
-        Log.d(TAG, "Purchase successful.");
-
-        // Verify signature
-        AsyncTask<String, Void, String> signatureVerification = new AsyncTask<String, Void, String>() {
-            @Override
-            protected String doInBackground(String... params) {
-                String sku = params[0];
-                if (Security.verifyPurchaseRemote(IAP_VERIFICATION_URL, params[1], params[2], getPackageName())) {
-                    return sku;
-                }else{
-                    Log.d(TAG, "Purchase signature verification FAILED for sku " + sku);
-                    return "";
-                }
-            }
-
-            @Override
-            protected void onPostExecute(String sku) {
-                super.onPostExecute(sku);
-                if (!sku.isEmpty()){
-                    purchaseVerified(sku);
-                }else {
-                    purchaseFailed(sku);
-                }
-            }
-        }.execute(sku, purchase.getOriginalJson(), purchase.getSignature());
-    }
+//    @Override
+//    public void onIabPurchaseFinished(IabResult result, Purchase purchase) {
+//        Log.d(TAG, "Purchase finished: " + result + ", purchase: " + purchase);
+//        if (purchase == null) {
+//            Log.d(TAG, "Error purchasing (null purchase)");
+//            purchaseFailed(null);
+//            return;
+//        }
+//        String sku = purchase.getSku();
+//
+//        // if we were disposed of in the meantime, quit.
+//        if (mIabHelper == null) {
+//            purchaseFailed(sku);
+//            return;
+//        }
+//
+//        if (result.isFailure()) {
+//            Log.d(TAG, "Error purchasing: " + result);
+//            purchaseFailed(sku);
+//            return;
+//        }
+//
+//        // Verify the payload
+//        String payload = purchase.getDeveloperPayload();
+//
+//        Log.d(TAG, "Purchase successful.");
+//
+//        // Verify signature
+//        AsyncTask<String, Void, String> signatureVerification = new AsyncTask<String, Void, String>() {
+//            @Override
+//            protected String doInBackground(String... params) {
+//                String sku = params[0];
+//                if (Security.verifyPurchaseRemote(IAP_VERIFICATION_URL, params[1], params[2], getPackageName())) {
+//                    return sku;
+//                }else{
+//                    Log.d(TAG, "Purchase signature verification FAILED for sku " + sku);
+//                    return "";
+//                }
+//            }
+//
+//            @Override
+//            protected void onPostExecute(String sku) {
+//                super.onPostExecute(sku);
+//                if (!sku.isEmpty()){
+//                    purchaseVerified(sku);
+//                }else {
+//                    purchaseFailed(sku);
+//                }
+//            }
+//        }.execute(sku, purchase.getOriginalJson(), purchase.getSignature());
+//    }
 
     private void purchaseVerified(String sku){
         if (sku.equals(BuildConfig.iapProductAll)) {
@@ -1553,6 +1543,7 @@ public class ConfigurationActivity extends AppCompatActivity implements DialogIn
     public static boolean packageInstalled(Context context, String packageName) {
         final PackageManager packageManager = context.getPackageManager();
         Intent intent = packageManager.getLaunchIntentForPackage(packageName);
+//        IntentSender intentSender = packageManager.getLaunchIntentSenderForPackage(packageName);
         if (intent == null) {
             return false;
         }
@@ -1560,25 +1551,25 @@ public class ConfigurationActivity extends AppCompatActivity implements DialogIn
         return list.size() > 0;
     }
 
-    @Override
-    public void onIabSetupFinished(IabResult result) {
-        Log.d(TAG, "onIabSetupFinished");
-        if (result.isSuccess()) {
-            List<String> skus = new ArrayList<>();
-            skus.add(BuildConfig.iapProductRemoveAds);
-            if (BuildConfig.buildType == 0) {
-                skus.add(BuildConfig.iapProductAll);
-                skus.add(BuildConfig.iapProductUnlockSources);
-            }
-            Log.d(TAG, " success");
-            mIabHelper.queryInventoryAsync(true, skus, this);
-            mIabSetupSuccess = true;
-        }else{
-            Log.d(TAG, " failed");
-            Toast.makeText(this, result.getMessage(), Toast.LENGTH_LONG).show();
-            iabFailure();
-        }
-    }
+//    @Override
+//    public void onIabSetupFinished(IabResult result) {
+//        Log.d(TAG, "onIabSetupFinished");
+//        if (result.isSuccess()) {
+//            List<String> skus = new ArrayList<>();
+//            skus.add(BuildConfig.iapProductRemoveAds);
+//            if (BuildConfig.buildType == 0) {
+//                skus.add(BuildConfig.iapProductAll);
+//                skus.add(BuildConfig.iapProductUnlockSources);
+//            }
+//            Log.d(TAG, " success");
+//            mIabHelper.queryInventoryAsync(true, skus, this);
+//            mIabSetupSuccess = true;
+//        }else{
+//            Log.d(TAG, " failed");
+//            Toast.makeText(this, result.getMessage(), Toast.LENGTH_LONG).show();
+//            iabFailure();
+//        }
+//    }
 
     private void iabFailure(){
         Log.d(TAG, "iabFailure");
@@ -1601,75 +1592,75 @@ public class ConfigurationActivity extends AppCompatActivity implements DialogIn
         updateUI(false);
     }
 
-    @Override
-    public void onQueryInventoryFinished(IabResult result, Inventory inventory) {
-        Log.d(TAG, "Query inventory finished.");
-
-        // Have we been disposed of in the meantime? If so, quit.
-        if (mIabHelper == null) return;
-
-        // Is it a failure?
-        if (result.isFailure()) {
-            Log.d(TAG, "    - failed: " + result);
-            iabFailure();
-            return;
-        }
-
-        Log.d(TAG, "Query inventory was successful.");
-
-        // Check the prices of all the skus
-        SkuDetails adsRemovedDetails = inventory.getSkuDetails(BuildConfig.iapProductRemoveAds);
-        if (adsRemovedDetails != null){
-            mAdsRemovedPrice = adsRemovedDetails.getPrice();
-        }else Log.d(TAG, "No sku details for " + BuildConfig.iapProductRemoveAds);
-        SkuDetails isPremiumDetails = inventory.getSkuDetails(BuildConfig.iapProductUnlockSources);
-        if (isPremiumDetails != null) {
-            mIsPremiumPrice = isPremiumDetails.getPrice();
-        }else Log.d(TAG, "No sku details for " + BuildConfig.iapProductUnlockSources);
-        SkuDetails unlockAllDetails = inventory.getSkuDetails(BuildConfig.iapProductAll);
-        if (isPremiumDetails != null) {
-            mUnlockAllPrice = unlockAllDetails.getPrice();
-        }else Log.d(TAG, "No sku details for " + BuildConfig.iapProductAll);
-
-        // Do we own the unlock all license
-        Purchase unlockAllPurchase = inventory.getPurchase(BuildConfig.iapProductAll);
-        mUnlockAll = (unlockAllPurchase != null);
-        //if (getPackageName().contains("debug"))mUnlockAll = true;
-
-        // Do we own the remove ad
-        Purchase removeAdPurchase = inventory.getPurchase(BuildConfig.iapProductRemoveAds);
-        mAdsRemoved = (removeAdPurchase != null);
-
-        // Do we own the premium
-        Purchase premiumPurchase = inventory.getPurchase(BuildConfig.iapProductUnlockSources);
-        mSourcesUnlocked = (premiumPurchase != null);
-
-        // Consume all purchases -------------------------------------------------------------------
-//        Log.d(TAG, "Consuming all skus");
-//        final Context tempContext = this;
-//        IabHelper.OnConsumeFinishedListener consumed = new IabHelper.OnConsumeFinishedListener() {
-//            @Override
-//            public void onConsumeFinished(Purchase purchase, IabResult result) {
-//                if (result.isSuccess()) {
-//                    Toast.makeText(tempContext, "Consumed " + purchase.getSku(), Toast.LENGTH_LONG).show();
-//                }else{
-//                    Toast.makeText(tempContext, "FAILED to consume " + purchase.getSku(), Toast.LENGTH_LONG).show();
-//                }
-//            }
-//        };
-//        List<Purchase> purchases = new ArrayList<>();
-//        if (unlockAllPurchase != null) purchases.add(unlockAllPurchase);
-//        if (removeAdPurchase != null) purchases.add(removeAdPurchase);
-//        if (premiumPurchase != null) purchases.add(premiumPurchase);
-//        if (purchases.size() > 0) {
-//            mIabHelper.consumeAsync(purchases, consumed);
+//    @Override
+//    public void onQueryInventoryFinished(IabResult result, Inventory inventory) {
+//        Log.d(TAG, "Query inventory finished.");
+//
+//        // Have we been disposed of in the meantime? If so, quit.
+//        if (mIabHelper == null) return;
+//
+//        // Is it a failure?
+//        if (result.isFailure()) {
+//            Log.d(TAG, "    - failed: " + result);
+//            iabFailure();
+//            return;
 //        }
-        // Consume all purchases -------------------------------------------------------------------
-
-        Log.d(TAG, "License: All / Ads Removed / Premium " + mUnlockAll + " / " + mAdsRemoved + " / " + mSourcesUnlocked);
-        storeLicensingState(true);
-        updateUI(!initialConfiguration);
-    }
+//
+//        Log.d(TAG, "Query inventory was successful.");
+//
+//        // Check the prices of all the skus
+//        SkuDetails adsRemovedDetails = inventory.getSkuDetails(BuildConfig.iapProductRemoveAds);
+//        if (adsRemovedDetails != null){
+//            mAdsRemovedPrice = adsRemovedDetails.getPrice();
+//        }else Log.d(TAG, "No sku details for " + BuildConfig.iapProductRemoveAds);
+//        SkuDetails isPremiumDetails = inventory.getSkuDetails(BuildConfig.iapProductUnlockSources);
+//        if (isPremiumDetails != null) {
+//            mIsPremiumPrice = isPremiumDetails.getPrice();
+//        }else Log.d(TAG, "No sku details for " + BuildConfig.iapProductUnlockSources);
+//        SkuDetails unlockAllDetails = inventory.getSkuDetails(BuildConfig.iapProductAll);
+//        if (isPremiumDetails != null) {
+//            mUnlockAllPrice = unlockAllDetails.getPrice();
+//        }else Log.d(TAG, "No sku details for " + BuildConfig.iapProductAll);
+//
+//        // Do we own the unlock all license
+//        Purchase unlockAllPurchase = inventory.getPurchase(BuildConfig.iapProductAll);
+//        mUnlockAll = (unlockAllPurchase != null);
+//        //if (getPackageName().contains("debug"))mUnlockAll = true;
+//
+//        // Do we own the remove ad
+//        Purchase removeAdPurchase = inventory.getPurchase(BuildConfig.iapProductRemoveAds);
+//        mAdsRemoved = (removeAdPurchase != null);
+//
+//        // Do we own the premium
+//        Purchase premiumPurchase = inventory.getPurchase(BuildConfig.iapProductUnlockSources);
+//        mSourcesUnlocked = (premiumPurchase != null);
+//
+//        // Consume all purchases -------------------------------------------------------------------
+////        Log.d(TAG, "Consuming all skus");
+////        final Context tempContext = this;
+////        IabHelper.OnConsumeFinishedListener consumed = new IabHelper.OnConsumeFinishedListener() {
+////            @Override
+////            public void onConsumeFinished(Purchase purchase, IabResult result) {
+////                if (result.isSuccess()) {
+////                    Toast.makeText(tempContext, "Consumed " + purchase.getSku(), Toast.LENGTH_LONG).show();
+////                }else{
+////                    Toast.makeText(tempContext, "FAILED to consume " + purchase.getSku(), Toast.LENGTH_LONG).show();
+////                }
+////            }
+////        };
+////        List<Purchase> purchases = new ArrayList<>();
+////        if (unlockAllPurchase != null) purchases.add(unlockAllPurchase);
+////        if (removeAdPurchase != null) purchases.add(removeAdPurchase);
+////        if (premiumPurchase != null) purchases.add(premiumPurchase);
+////        if (purchases.size() > 0) {
+////            mIabHelper.consumeAsync(purchases, consumed);
+////        }
+//        // Consume all purchases -------------------------------------------------------------------
+//
+//        Log.d(TAG, "License: All / Ads Removed / Premium " + mUnlockAll + " / " + mAdsRemoved + " / " + mSourcesUnlocked);
+//        storeLicensingState(true);
+//        updateUI(!initialConfiguration);
+//    }
 
     private void storeLicensingState(boolean verified) {
         Log.d(TAG, "storeLicensingState");

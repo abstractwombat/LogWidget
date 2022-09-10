@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/219847331/Apps.iml" filepath="$PROJECT_DIR$/.idea/modules/219847331/Apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/28485967/Apps.Library.iml" filepath="$PROJECT_DIR$/.idea/modules/28485967/Apps.Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/28485967/Apps.Library.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/28485967/Apps.Library.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/28485967/Apps.Library.main.iml" filepath="$PROJECT_DIR$/.idea/modules/28485967/Apps.Library.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/28485967/Apps.Library.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/28485967/Apps.Library.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-429699101/Apps.LogLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/-429699101/Apps.LogLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-429699101/Apps.LogLibrary.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-429699101/Apps.LogLibrary.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-429699101/Apps.LogLibrary.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-429699101/Apps.LogLibrary.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-429699101/Apps.LogLibrary.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-429699101/Apps.LogLibrary.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Apps.LogWidget.iml" filepath="$PROJECT_DIR$/.idea/modules/Apps.LogWidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Apps.LogWidget.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Apps.LogWidget.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Apps.LogWidget.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Apps.LogWidget.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Apps.LogWidget.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Apps.LogWidget.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1235506616/Apps.color-picker-view.iml" filepath="$PROJECT_DIR$/.idea/modules/1235506616/Apps.color-picker-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1235506616/Apps.color-picker-view.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1235506616/Apps.color-picker-view.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1235506616/Apps.color-picker-view.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1235506616/Apps.color-picker-view.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1235506616/Apps.color-picker-view.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1235506616/Apps.color-picker-view.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/783664335/Apps.colorPicker.iml" filepath="$PROJECT_DIR$/.idea/modules/783664335/Apps.colorPicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/783664335/Apps.colorPicker.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/783664335/Apps.colorPicker.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/783664335/Apps.colorPicker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/783664335/Apps.colorPicker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/783664335/Apps.colorPicker.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/783664335/Apps.colorPicker.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/401048053/Apps.contacts.iml" filepath="$PROJECT_DIR$/.idea/modules/401048053/Apps.contacts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/401048053/Apps.contacts.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/401048053/Apps.contacts.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/401048053/Apps.contacts.main.iml" filepath="$PROJECT_DIR$/.idea/modules/401048053/Apps.contacts.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/401048053/Apps.contacts.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/401048053/Apps.contacts.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-116087654/Apps.images.iml" filepath="$PROJECT_DIR$/.idea/modules/-116087654/Apps.images.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-116087654/Apps.images.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-116087654/Apps.images.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-116087654/Apps.images.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-116087654/Apps.images.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-116087654/Apps.images.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-116087654/Apps.images.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1757992938/Apps.networking.iml" filepath="$PROJECT_DIR$/.idea/modules/-1757992938/Apps.networking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1757992938/Apps.networking.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1757992938/Apps.networking.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1757992938/Apps.networking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1757992938/Apps.networking.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1757992938/Apps.networking.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1757992938/Apps.networking.unitTest.iml" />
+    </modules>
+  </component>
+</project>

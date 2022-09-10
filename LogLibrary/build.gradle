@@ -1,15 +1,16 @@
 buildscript {
     repositories {
+        google()
         mavenCentral()
     }
 	dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.android.tools.build:gradle:7.2.2'
     }
 }
 apply plugin: 'com.android.library'
 
 repositories {
-    jcenter()
+    google()
     mavenCentral()
     maven {
         url 'https://maven.google.com/'
@@ -18,21 +19,21 @@ repositories {
 }
 
 dependencies {
-	compile project(":Library")
-	compile project(":chips")
-    compile project(":images")
-    compile project(":contacts")
-    compile project(":color-picker-view")
-    compile project(":colorPicker")
-    compile fileTree(dir: 'libs', include: '*.jar')
-    compile "com.android.support:appcompat-v7:27.1.0"
-    compile "com.android.support:support-v13:27.1.0"
-    compile 'com.android.support:cardview-v7:27.1.0'
+	api project(":Library")
+//    api project(":chips")
+    api project(":images")
+    api project(":contacts")
+    api project(":color-picker-view")
+    api project(":colorPicker")
+    api fileTree(dir: 'libs', include: '*.jar')
+    api 'androidx.appcompat:appcompat:1.5.1'
+    api 'androidx.legacy:legacy-support-v13:1.0.0'
+    api 'androidx.cardview:cardview:1.0.0'
 }
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion '26.0.2'
+    compileSdk 33
+    buildToolsVersion '33.0.0'
     useLibrary 'org.apache.http.legacy'
 
     sourceSets {
@@ -47,7 +48,7 @@ android {
         }
 
         // Move the tests to tests/java, tests/res, etc...
-        instrumentTest.setRoot('tests')
+        // instrumentTest.setRoot('tests')
 
         // Move the build types to build-types/<type>
         // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...

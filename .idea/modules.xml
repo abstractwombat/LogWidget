@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LogWidget.iml" filepath="$PROJECT_DIR$/.idea/modules/LogWidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ContactWidget/LogWidget.ContactWidget.iml" filepath="$PROJECT_DIR$/.idea/modules/ContactWidget/LogWidget.ContactWidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Library/LogWidget.Library.iml" filepath="$PROJECT_DIR$/.idea/modules/Library/LogWidget.Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Library/LogWidget.Library.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Library/LogWidget.Library.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Library/LogWidget.Library.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Library/LogWidget.Library.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Library/LogWidget.Library.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Library/LogWidget.Library.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LogLibrary/LogWidget.LogLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/LogLibrary/LogWidget.LogLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LogLibrary/LogWidget.LogLibrary.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/LogLibrary/LogWidget.LogLibrary.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LogLibrary/LogWidget.LogLibrary.main.iml" filepath="$PROJECT_DIR$/.idea/modules/LogLibrary/LogWidget.LogLibrary.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LogLibrary/LogWidget.LogLibrary.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/LogLibrary/LogWidget.LogLibrary.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LogWidget/LogWidget.LogWidget.iml" filepath="$PROJECT_DIR$/.idea/modules/LogWidget/LogWidget.LogWidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LogWidget/LogWidget.LogWidget.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/LogWidget/LogWidget.LogWidget.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LogWidget/LogWidget.LogWidget.main.iml" filepath="$PROJECT_DIR$/.idea/modules/LogWidget/LogWidget.LogWidget.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LogWidget/LogWidget.LogWidget.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/LogWidget/LogWidget.LogWidget.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/chips/LogWidget.chips.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/chips/LogWidget.chips.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/chips/LogWidget.chips.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/chips/LogWidget.chips.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/chips/LogWidget.chips.main.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/chips/LogWidget.chips.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/chips/LogWidget.chips.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/chips/LogWidget.chips.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/color-picker-view/LogWidget.color-picker-view.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/color-picker-view/LogWidget.color-picker-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/color-picker-view/LogWidget.color-picker-view.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/color-picker-view/LogWidget.color-picker-view.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/color-picker-view/LogWidget.color-picker-view.main.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/color-picker-view/LogWidget.color-picker-view.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/color-picker-view/LogWidget.color-picker-view.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/color-picker-view/LogWidget.color-picker-view.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/ColorPicker/LogWidget.colorPicker.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/ColorPicker/LogWidget.colorPicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/ColorPicker/LogWidget.colorPicker.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/ColorPicker/LogWidget.colorPicker.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/ColorPicker/LogWidget.colorPicker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/ColorPicker/LogWidget.colorPicker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/ColorPicker/LogWidget.colorPicker.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/ColorPicker/LogWidget.colorPicker.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/contacts/LogWidget.contacts.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/contacts/LogWidget.contacts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/contacts/LogWidget.contacts.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/contacts/LogWidget.contacts.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/contacts/LogWidget.contacts.main.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/contacts/LogWidget.contacts.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/contacts/LogWidget.contacts.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/contacts/LogWidget.contacts.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/iab/LogWidget.iab.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/iab/LogWidget.iab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/iab/LogWidget.iab.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/iab/LogWidget.iab.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/iab/LogWidget.iab.main.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/iab/LogWidget.iab.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/iab/LogWidget.iab.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/iab/LogWidget.iab.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/images/LogWidget.images.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/images/LogWidget.images.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/images/LogWidget.images.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/images/LogWidget.images.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/images/LogWidget.images.main.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/images/LogWidget.images.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/images/LogWidget.images.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/images/LogWidget.images.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/networking/LogWidget.networking.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/networking/LogWidget.networking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/networking/LogWidget.networking.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/networking/LogWidget.networking.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/networking/LogWidget.networking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/networking/LogWidget.networking.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/networking/LogWidget.networking.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/networking/LogWidget.networking.unitTest.iml" />
+    </modules>
+  </component>
+</project>

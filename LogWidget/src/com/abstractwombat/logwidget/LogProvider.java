@@ -65,7 +65,7 @@ public class LogProvider extends AppWidgetProvider {
         Log.d(TAG, "onUpdate");
 
         // Create the ad fetcher
-        AdFetcher adFetcher = new AdFetcher(context);
+//        AdFetcher adFetcher = new AdFetcher(context);
 
         long currentTime = System.currentTimeMillis();
         SharedPreferenceList prefs = new SharedPreferenceList(context, WIDGET_ID_FILE);
@@ -158,12 +158,15 @@ public class LogProvider extends AppWidgetProvider {
 
                 // Close intent
                 updateWidgetIntent.setAction(ACTION_CLOSE_TIP);
-                PendingIntent closePendingIntent = PendingIntent.getBroadcast(context, appWidgetId, updateWidgetIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+
+                int piFlag =  PendingIntent.FLAG_UPDATE_CURRENT;
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                    piFlag |= PendingIntent.FLAG_MUTABLE;
+                }
+                PendingIntent closePendingIntent = PendingIntent.getBroadcast(context, appWidgetId, updateWidgetIntent, piFlag);
                 rv.setOnClickPendingIntent(R.id.banner_close, closePendingIntent);
                 // Top padding
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-                    rv.setViewPadding(R.id.list_view, 0, (int) topPaddingWithBanner, 0, 0);
-                }
+                rv.setViewPadding(R.id.list_view, 0, (int) topPaddingWithBanner, 0, 0);
                 // Store the creation time
                 if (creationTime == 0) {
                     SharedPreferences.Editor edit = state.edit();
@@ -171,62 +174,62 @@ public class LogProvider extends AppWidgetProvider {
                     edit.commit();
                 }
                 Log.d(TAG, "Tip shown");
-            } else if (adFetcher.isAvailable()) {
-                // Get the data
-                AdFetcher.AdData data = adFetcher.getData();
-
-                // Figure out when to show the ad
-                long timeToShowAd = tipClosed + data.reassert;
-                if (adClosed > 0) timeToShowAd = adClosed + data.reassert;
-                Log.d(TAG, "Current Time: " + currentTime + " Creation Time: " + creationTime + "Tip closed: " + tipClosed + " Ad Closed: " + adClosed + " Show at: " + timeToShowAd + " Reassert every: " + data.reassert);
-
-                if (!adsRemoved && data.reassert > 0) {
-                    if (currentTime > timeToShowAd) {
-                        // Time to show the ad
-                        rv.setViewVisibility(R.id.banner, View.VISIBLE);
-                        // Image
-                        if (data.image != null) {
-                            rv.setViewVisibility(R.id.banner_image, View.VISIBLE);
-                            rv.setImageViewBitmap(R.id.banner_image, data.image);
-                        } else {
-                            rv.setViewVisibility(R.id.banner_image, View.GONE);
-                        }
-                        // Text
-                        rv.setViewVisibility(R.id.banner_text, View.VISIBLE);
-                        rv.setTextViewText(R.id.banner_text, data.text);
-                        // Show / Hide close button
-                        if (data.closeable) {
-                            rv.setViewVisibility(R.id.banner_close, View.VISIBLE);
-                            Intent closeAdWidgetIntent = new Intent(context, LogProvider.class);
-                            closeAdWidgetIntent.setAction(ACTION_CLOSE_AD);
-                            closeAdWidgetIntent.putExtra(context.getPackageName() + ".WidgetID", appWidgetId);
-
-                            PendingIntent closePendingIntent = PendingIntent.getBroadcast(context, appWidgetId, closeAdWidgetIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-                            rv.setOnClickPendingIntent(R.id.banner_close, closePendingIntent);
-                        } else {
-                            rv.setViewVisibility(R.id.banner_close, View.GONE);
-                        }
-                        // Touch event
-                        if (data.uri.length() > 0) {
-                            Log.d(TAG, "Banner uri: " + data.uri);
-                            Intent bannerIntent = new Intent(Intent.ACTION_VIEW);
-                            bannerIntent.setData(Uri.parse(data.uri)); //< "market://details?id
-                            // =package"
-                            PendingIntent clickBannerPI = PendingIntent.getActivity(context, appWidgetId, bannerIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-                            rv.setOnClickPendingIntent(R.id.banner, clickBannerPI);
-                        }
-
-                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-                            rv.setViewPadding(R.id.list_view, 0, (int) topPaddingWithBanner, 0, 0);
-                        }
-                        Log.d(TAG, "Ad shown");
-                    } else {
-                        Log.d(TAG, "Not time to show the ad yet");
-                        // Schedule to update when the ad needs to be shown
-                        scheduledUpdateTime = timeToShowAd;
-                        Log.d(TAG, "Scheduling potential ad reassert at " + timeToShowAd);
-                    }
-                }
+//            } else if (adFetcher.isAvailable()) {
+//                // Get the data
+//                AdFetcher.AdData data = adFetcher.getData();
+//
+//                // Figure out when to show the ad
+//                long timeToShowAd = tipClosed + data.reassert;
+//                if (adClosed > 0) timeToShowAd = adClosed + data.reassert;
+//                Log.d(TAG, "Current Time: " + currentTime + " Creation Time: " + creationTime + "Tip closed: " + tipClosed + " Ad Closed: " + adClosed + " Show at: " + timeToShowAd + " Reassert every: " + data.reassert);
+//
+//                if (!adsRemoved && data.reassert > 0) {
+//                    if (currentTime > timeToShowAd) {
+//                        // Time to show the ad
+//                        rv.setViewVisibility(R.id.banner, View.VISIBLE);
+//                        // Image
+//                        if (data.image != null) {
+//                            rv.setViewVisibility(R.id.banner_image, View.VISIBLE);
+//                            rv.setImageViewBitmap(R.id.banner_image, data.image);
+//                        } else {
+//                            rv.setViewVisibility(R.id.banner_image, View.GONE);
+//                        }
+//                        // Text
+//                        rv.setViewVisibility(R.id.banner_text, View.VISIBLE);
+//                        rv.setTextViewText(R.id.banner_text, data.text);
+//                        // Show / Hide close button
+//                        if (data.closeable) {
+//                            rv.setViewVisibility(R.id.banner_close, View.VISIBLE);
+//                            Intent closeAdWidgetIntent = new Intent(context, LogProvider.class);
+//                            closeAdWidgetIntent.setAction(ACTION_CLOSE_AD);
+//                            closeAdWidgetIntent.putExtra(context.getPackageName() + ".WidgetID", appWidgetId);
+//
+//                            PendingIntent closePendingIntent = PendingIntent.getBroadcast(context, appWidgetId, closeAdWidgetIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+//                            rv.setOnClickPendingIntent(R.id.banner_close, closePendingIntent);
+//                        } else {
+//                            rv.setViewVisibility(R.id.banner_close, View.GONE);
+//                        }
+//                        // Touch event
+//                        if (data.uri.length() > 0) {
+//                            Log.d(TAG, "Banner uri: " + data.uri);
+//                            Intent bannerIntent = new Intent(Intent.ACTION_VIEW);
+//                            bannerIntent.setData(Uri.parse(data.uri)); //< "market://details?id
+//                            // =package"
+//                            PendingIntent clickBannerPI = PendingIntent.getActivity(context, appWidgetId, bannerIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+//                            rv.setOnClickPendingIntent(R.id.banner, clickBannerPI);
+//                        }
+//
+//                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+//                            rv.setViewPadding(R.id.list_view, 0, (int) topPaddingWithBanner, 0, 0);
+//                        }
+//                        Log.d(TAG, "Ad shown");
+//                    } else {
+//                        Log.d(TAG, "Not time to show the ad yet");
+//                        // Schedule to update when the ad needs to be shown
+//                        scheduledUpdateTime = timeToShowAd;
+//                        Log.d(TAG, "Scheduling potential ad reassert at " + timeToShowAd);
+//                    }
+//                }
             } else {
                 Log.d(TAG, "Ad not available");
             }
@@ -244,7 +247,11 @@ public class LogProvider extends AppWidgetProvider {
             Intent templateIntent = new Intent(context, LogReceiver.class);
             templateIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
             templateIntent.putExtra(packageName + ".WidgetID", appWidgetId);
-            PendingIntent templatePendingIntent = PendingIntent.getBroadcast(context, appWidgetId, templateIntent, PendingIntent.FLAG_CANCEL_CURRENT);
+            int piFlag =  PendingIntent.FLAG_CANCEL_CURRENT;
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                piFlag |= PendingIntent.FLAG_MUTABLE;
+            }
+            PendingIntent templatePendingIntent = PendingIntent.getBroadcast(context, appWidgetId, templateIntent, piFlag);
             rv.setPendingIntentTemplate(R.id.list_view, templatePendingIntent);
 
             // Register the widget ID
@@ -275,7 +282,11 @@ public class LogProvider extends AppWidgetProvider {
             Intent adUpdateWidgetIntent = new Intent(context, LogProvider.class);
             adUpdateWidgetIntent.putExtra(context.getPackageName() + ".WidgetID", appWidgetId);
             adUpdateWidgetIntent.setAction(ACTION_FORCE_UPDATE);
-            PendingIntent refreshPendingIntent = PendingIntent.getBroadcast(context, appWidgetId, adUpdateWidgetIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+            int piFlag2 =  PendingIntent.FLAG_UPDATE_CURRENT;
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                piFlag2 |= PendingIntent.FLAG_MUTABLE;
+            }
+            PendingIntent refreshPendingIntent = PendingIntent.getBroadcast(context, appWidgetId, adUpdateWidgetIntent, piFlag2);
             AlarmManager am = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
             am.set(AlarmManager.RTC_WAKEUP, scheduledUpdateTime, refreshPendingIntent);
             Log.d(TAG, "Scheduling update for " + scheduledUpdateTime);
@@ -351,8 +362,8 @@ public class LogProvider extends AppWidgetProvider {
         stateEditor.commit();
 
         // Delete the ad fetcher
-        AdFetcher adFetcher = new AdFetcher(context);
-        adFetcher.delete();
+//        AdFetcher adFetcher = new AdFetcher(context);
+//        adFetcher.delete();
 
         // Clear all caches
         new ImageCache("NotificationCache").clear(context);

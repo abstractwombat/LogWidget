@@ -6,8 +6,6 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.abstractwombat.iab.IabHelper;
-
 /**
  *  IabChecker
  *      Schedules an alarm to check the given package is valid using the IabHelper
@@ -51,7 +49,7 @@ public class IabChecker extends BroadcastReceiver{
     }
 
     private void licenseCheckStart(){
-        IabHelper helper = new IabHelper(mContext, mVerificationUrl);
+//        IabHelper helper = new IabHelper(mContext, mVerificationUrl);
         //mIabHelper.launchPurchaseFlow(this, IAP_PRODUCT_REMOVE_AD, 1001, this);
     }
 

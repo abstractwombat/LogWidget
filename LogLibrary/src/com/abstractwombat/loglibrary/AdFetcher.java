@@ -13,8 +13,6 @@ import android.util.Log;
 
 import com.abstractwombat.networking.HttpForJson;
 
-import org.apache.http.NameValuePair;
-import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONObject;
 
 /**
@@ -56,15 +54,15 @@ public class AdFetcher implements HttpForJson.PostReceiver {
 
     public void refresh(){
         Log.d(TAG, "Refresh");
-        NameValuePair packagePair = new BasicNameValuePair("package", mContext.getPackageName());
-        NameValuePair keyPair = new BasicNameValuePair("key", generateKey(System.currentTimeMillis()));
-        if (mContext.getPackageName().contains("debug")){
-            Log.d(TAG, "Requesting banner from " + POST_URL_DEBUG);
-            new HttpForJson(POST_URL_DEBUG).preformAsync(this, packagePair, keyPair);
-        }else {
-            Log.d(TAG, "Requesting banner from " + POST_URL);
-            new HttpForJson(POST_URL).preformAsync(this, packagePair, keyPair);
-        }
+//        NameValuePair packagePair = new BasicNameValuePair("package", mContext.getPackageName());
+//        NameValuePair keyPair = new BasicNameValuePair("key", generateKey(System.currentTimeMillis()));
+//        if (mContext.getPackageName().contains("debug")){
+//            Log.d(TAG, "Requesting banner from " + POST_URL_DEBUG);
+//            new HttpForJson(POST_URL_DEBUG).preformAsync(this, packagePair, keyPair);
+//        }else {
+//            Log.d(TAG, "Requesting banner from " + POST_URL);
+//            new HttpForJson(POST_URL).preformAsync(this, packagePair, keyPair);
+//        }
     }
 
     public boolean isAvailable(){

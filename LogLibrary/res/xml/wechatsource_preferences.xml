@@ -62,7 +62,7 @@
         <com.github.danielnilsson9.colorpickerview.preference.ColorPreference
             android:defaultValue="@color/wechat_source_default_rowcolor"
             android:key="wechatsource_rowcolor"
-            android:summary="Set the background color of the whole row."
+            android:summary="Set the background color of the wholee row."
             app:colorpickerview__alphaChannelVisible="true"
             android:title="Row color" />
         <com.github.danielnilsson9.colorpickerview.preference.ColorPreference

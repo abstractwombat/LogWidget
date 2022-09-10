@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$/../Library" />
+            <option value="$PROJECT_DIR$/../LogLibrary" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../libraries/ColorPicker" />
+            <option value="$PROJECT_DIR$/../libraries/color-picker-view" />
+            <option value="$PROJECT_DIR$/../libraries/contacts" />
+            <option value="$PROJECT_DIR$/../libraries/images" />
+            <option value="$PROJECT_DIR$/../libraries/networking" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="logwidget" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8749fb1-5ce8-45e4-9b9c-1adffc526d3f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../Apps.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardDB/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardDB/QuickBrewCalc/build/generated/res/google-services/debug/values/values.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardDB/QuickBrewCalc/build/generated/source/buildConfig/debug/com/abstractwombat/quickbrewcalc/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardDB/QuickBrewCalc/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/RKNED88L6prOTpAs4EmBz_ZYvp4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardDB/QuickBrewCalc/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ufwV6dbgQaTwDJUfaxWASQcOOgk=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardDB/java_pid13660.hprof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardDB/library/build/generated/source/buildConfig/debug/com/abstractwombat/carddb/library/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactWidget/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactWidget/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactWidget/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactWidget/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactWidget/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactWidget/build/generated/source/buildConfig/paid/debug/us/sbsoft/sbcontactwidget/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactWidget/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/build/generated/source/buildConfig/debug/com/abstractwombat/library/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogLibrary/build/generated/source/buildConfig/debug/com/abstractwombat/loglibrary/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__C.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__C__1_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__C__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_5_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_5_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_5_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_8_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_8_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_6_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v13_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_5_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_5_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_5_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_5_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_libphonenumber_libphonenumber_8_12_55.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_klinkerapps_android_chips_1_3_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_6_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_7_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_6_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_7_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/callwidget/debug/com/abstractwombat/logwidget/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/logwidget/debug/com/abstractwombat/logwidget/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/logwidget/release/com/abstractwombat/logwidget/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/aapt_proguard_file/logwidgetRelease/aapt_rules.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/annotation_processor_list/logwidgetRelease/annotationProcessors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/app_metadata/logwidgetRelease/app-metadata.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/assets/logwidgetRelease/mergeLogwidgetReleaseAssets/fonts/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/compatible_screen_manifest/logwidgetRelease/output-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/logwidgetRelease/R.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/compressed_assets/logwidgetRelease/out/assets/fonts/Roboto-Light.ttf.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-7.2.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/default_proguard_files/global/proguard-android.txt-7.2.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/default_proguard_files/global/proguard-defaults.txt-7.2.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/dex/logwidgetDebug/mergeLibDexLogwidgetDebug/10/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/dex/logwidgetDebug/mergeLibDexLogwidgetDebug/13/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/dex/logwidgetDebug/mergeLibDexLogwidgetDebug/14/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/dex/logwidgetDebug/mergeLibDexLogwidgetDebug/15/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/dex/logwidgetDebug/mergeLibDexLogwidgetDebug/2/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/dex/logwidgetDebug/mergeLibDexLogwidgetDebug/3/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/dex/logwidgetDebug/mergeLibDexLogwidgetDebug/4/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/dex/logwidgetDebug/mergeLibDexLogwidgetDebug/6/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/dex/logwidgetDebug/mergeLibDexLogwidgetDebug/8/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/dex/logwidgetDebug/mergeLibDexLogwidgetDebug/9/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-af/values-af.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-am/values-am.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-ar/values-ar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-as/values-as.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-az/values-az.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-be/values-be.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-bg/values-bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-bn/values-bn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-bs/values-bs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-ca/values-ca.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-cs/values-cs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-da/values-da.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-de/values-de.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-el/values-el.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-es/values-es.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-et/values-et.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-eu/values-eu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-fa/values-fa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-fi/values-fi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-fr/values-fr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-gl/values-gl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-gu/values-gu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-hi/values-hi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-hr/values-hr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-hu/values-hu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-hy/values-hy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-in/values-in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-is/values-is.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-it/values-it.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-iw/values-iw.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-ja/values-ja.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-ka/values-ka.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-kk/values-kk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-km/values-km.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-kn/values-kn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-ko/values-ko.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-ky/values-ky.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-land/values-land.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-large-v4/values-large-v4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-lo/values-lo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-lt/values-lt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-lv/values-lv.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-mk/values-mk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-ml/values-ml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-mn/values-mn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-mr/values-mr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-ms/values-ms.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-my/values-my.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-nb/values-nb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-ne/values-ne.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-night-v8/values-night-v8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-nl/values-nl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-or/values-or.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-pa/values-pa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-pl/values-pl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-port/values-port.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-pt/values-pt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-ro/values-ro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-ru/values-ru.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-si/values-si.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-sk/values-sk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-sl/values-sl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-sq/values-sq.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-sr/values-sr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-sv/values-sv.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-sw/values-sw.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-sw360dp-v13/values-sw360dp-v13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-sw400dp-v13/values-sw400dp-v13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-ta/values-ta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-te/values-te.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-th/values-th.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-tl/values-tl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-tr/values-tr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-uk/values-uk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-ur/values-ur.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-uz/values-uz.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-v11/values-v11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-v16/values-v16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-v17/values-v17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-v18/values-v18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-v21/values-v21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-v22/values-v22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-v23/values-v23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-v24/values-v24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-v25/values-v25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-v26/values-v26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-v28/values-v28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-vi/values-vi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values-zu/values-zu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetDebug/mergeLogwidgetDebugResources/merged.dir/values/values.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/+0cX5caWJgiq5iBvNZ88S2tIzmw=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/+VB9Y_byr2J6QaIq1taAYZyax_c=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/0NWUQTHdRbHnWdMOOfxy_S_FB3g=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/0ghPrVSC2LqvK0Fo7HvtpxDsw4E=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/0xhYJcsYc5BISHDLkYXmp7YqvMs=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/1FxBpEWBGwl+HcMUqO0jmea89Q4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/1bisv1AQhTlbfJW8jYHXvpYzpSc=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/2ZSxdg7Lr6P1ml985J+Pq15wdxU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/2gjkeIjpHA0mhqLN6zhvgq__OKQ=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/4_O0hSqhMpa9d5ghcs0JmCKDmts=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/4a0d7nqKYvp5cZGMlW8wPgNU5bM=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/5mlDQ_YE2n2SbdL8aNDi2+4rIg8=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/6eUChG0sHKhxgmRZTT0+ihfIOF8=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/6oc2ri9h8CrmGPlL2P+r55WXXjU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/7qHv2GvEpcUmqb_uJuUDS37w+9Q=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/AZYaN1mbcIgzNM1twXvF8Moo6T8=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/BXuIR_QIRopZpF_dA34v6x9teB0=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/DoCfUzK9TSzPwej2t4PRpt7Dddw=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/ER_Tt7BCWw5mUswbsdMm2CERwiY=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/FLaUiKNNv9KAPnF9yW_VAuECNnY=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/IOj2GsFUmciRjgZFfui0nvdeRoE=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/J0hqgB_l35EiZXqov8AIZLvWyHI=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/JXk2X24XEz5wlZc6EltHQX2hZh0=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/K1Hl5EMPqReFJkBpWkmEN9AOMus=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/KVyJ+vaRlmMqZ+miNieToY5IT+c=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/KXI3X5yoEmrGYPS46FgrYuHiMvM=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/LhCTfDGMTQ1gYhofOvJDQyCEavM=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/LxSdqssBnBfCz+BCOydGxQ1AqBM=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/Qzt18pWr_H2eFyiglFweW9r5XaM=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/Ss_eCQX1Ep9mdbndkvE4lrjlCu4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/SyByl8CltK3ShWy1MfIeRfNmgx8=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/TSjwwlAyOwwCAQOjMx6LxbSzKm8=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/Tn0Mru7923t+hp9q7yrXRUnp+JU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/TuNWDgJikEtNfH8ykhH1LZ4ihg0=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/UJqIMw3bDGGtUD+4NLQkVjpReBc=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/UYIVs8CL6PYE0aXaFdVoUu6tjUI=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/YUMFh+OCurAxcX+sE0HAM_xa7VU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/ZXHjf3dKSsm9vBz6fSQrX9e1lOQ=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/ZyEyrUeN6TaaLuZb29c0UgcCt2Q=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/_761wzIFvMP5CwBwaTMORMFLOnc=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/_QH5VFf7JMpXvhnKozP0CfePfzE=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/bAV+GgxlFyekUQ7Pqtb8qw2gq2U=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/bHYVM5lxAEtbW47uNEN73xjpyrU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/bM_ROaecjwjCC7pQEdNRXxI3IOM=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/bSnh_wzCk8wy7+_KMOCVy7FKCRo=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/cQ4NN5JU_xm9zg9L7kUvG7Y_V9U=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/cpQq+KzP+Og4EwLPuJHwfi5kjBE=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/dAkyqFPNq6uZ1rpZpG1tPdDW3MU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/daaFCdeqwYJuv3den9bHXngrpVc=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/fi4RCaGKR_iTb2N5DcrEQdGGAAc=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/fiYhb0KejiaXH+6C+HZ74xIPP2Q=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/gTMcbaBqqHeUW_WMZ8PDC8jpSFw=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/h6_n6SJkJkn45Dp4GUIYdZzdVY8=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/iFMYs77uiPHknKgk_iBBw+wLksk=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/jLP+OgEMxqpQfPbGtODY9e8z9tU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/l9YCjukgdu3Edx8+K5nbRw23XFM=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/nYVGTYpc8ePq8RG2EONV8gIMXrU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/ogCqSMwRFRyNHvby1A7I6PCEjRQ=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/u+kzx2SIUaKDWxuhYhxYZkbpA78=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/uxlwAj_kRqQ65fC9oP2n0yMAGY8=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/wNxi+s9Jv0I4dCMKiUqroCJL+QU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/xKA5WAeIXcgkXFFoLrYxhQQHIfY=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/yxPtZzNx6RH42n2oUIOKQbL75mI=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease-mergeJavaRes/zip-cache/zl_Q9+jkhBsnOtecNemD90cfriY=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease/mergeLogwidgetReleaseResources/compile-file-map.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/logwidgetRelease/mergeLogwidgetReleaseResources/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeLogwidgetReleaseAssets/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeLogwidgetReleaseJniLibFolders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeLogwidgetReleaseShaders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/logwidgetDebug/classes/com/abstractwombat/logwidget/ConfigurationActivity$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/logwidgetDebug/classes/com/abstractwombat/logwidget/ConfigurationActivity$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/logwidgetDebug/classes/com/abstractwombat/logwidget/ConfigurationActivity$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/logwidgetDebug/classes/com/abstractwombat/logwidget/ConfigurationActivity$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/logwidgetDebug/classes/com/abstractwombat/logwidget/ConfigurationActivity$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/logwidgetDebug/classes/com/abstractwombat/logwidget/ConfigurationActivity$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/logwidgetDebug/classes/com/abstractwombat/logwidget/ConfigurationActivity$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/logwidgetDebug/classes/com/abstractwombat/logwidget/ConfigurationActivity$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/logwidgetDebug/classes/com/abstractwombat/logwidget/ConfigurationActivity$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/logwidgetDebug/classes/com/abstractwombat/logwidget/ConfigurationActivity$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/logwidgetDebug/classes/com/abstractwombat/logwidget/ConfigurationActivity$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/logwidgetDebug/classes/com/abstractwombat/logwidget/ConfigurationActivity$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/logwidgetDebug/classes/com/abstractwombat/logwidget/ConfigurationActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/manifest_merge_blame_file/logwidgetRelease/manifest-merger-blame-logwidget-release-report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_art_profile/logwidgetRelease/baseline-prof.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_java_res/logwidgetRelease/base.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_manifest/logwidgetRelease/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_manifests/logwidgetRelease/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_manifests/logwidgetRelease/output-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-hdpi_ic_audio_phone.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-hdpi_ic_call_incoming_holo_dark.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-hdpi_ic_call_missed_holo_dark.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-hdpi_ic_call_outgoing_holo_dark.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-hdpi_ic_contact_picture.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-hdpi_ic_contact_picture_holo_dark.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-hdpi_ic_contact_picture_holo_light.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-hdpi_quickcontact_badge_overlay_focused_dark.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-hdpi_quickcontact_badge_overlay_focused_light.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-hdpi_quickcontact_badge_overlay_normal_dark.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-hdpi_quickcontact_badge_overlay_normal_light.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-hdpi_quickcontact_badge_overlay_pressed_dark.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-hdpi_quickcontact_badge_overlay_pressed_light.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-mdpi_ic_audio_phone.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-mdpi_ic_call_incoming_holo_dark.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-mdpi_ic_call_missed_holo_dark.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-mdpi_ic_call_outgoing_holo_dark.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-mdpi_ic_contact_picture.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-mdpi_ic_contact_picture_holo_dark.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-mdpi_ic_contact_picture_holo_light.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-mdpi_quickcontact_badge_overlay_focused_dark.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-mdpi_quickcontact_badge_overlay_focused_light.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-mdpi_quickcontact_badge_overlay_normal_dark.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-mdpi_quickcontact_badge_overlay_normal_light.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-mdpi_quickcontact_badge_overlay_pressed_dark.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-mdpi_quickcontact_badge_overlay_pressed_light.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-xhdpi_abstract_wombat.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-xhdpi_ic_contact_picture.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-xhdpi_ic_contact_picture_holo_light.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-xhdpi_quickcontact_badge_overlay_focused_dark.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-xhdpi_quickcontact_badge_overlay_focused_light.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-xhdpi_quickcontact_badge_overlay_normal_dark.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-xhdpi_quickcontact_badge_overlay_normal_light.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-xhdpi_quickcontact_badge_overlay_pressed_dark.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable-xhdpi_quickcontact_badge_overlay_pressed_light.9.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable_list_divider.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable_widget_background.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable_widget_background_dark.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable_widget_background_light.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/drawable_widget_background_material.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/layout_about_dialog.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/layout_activity_configuration.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/layout_configuration_container.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/layout_quickcontact_badge_overlay_dark.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/layout_quickcontact_badge_overlay_light.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/layout_upgrade_row_dark.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/layout_upgrade_row_light.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/layout_upgrade_row_material.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/layout_widget_banner.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/layout_widget_layout.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/layout_widget_layout_dark.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/layout_widget_layout_light.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/layout_widget_layout_loading.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/layout_widget_layout_material.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/mipmap-hdpi_ic_launcher.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/mipmap-mdpi_ic_launcher.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/mipmap-xhdpi_ic_launcher.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/mipmap-xxhdpi_ic_launcher.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/mipmap-xxxhdpi_ic_launcher.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-af_values-af.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-am_values-am.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-ar_values-ar.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-as_values-as.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-az_values-az.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-b+sr+Latn_values-b+sr+Latn.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-be_values-be.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-bg_values-bg.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-bn_values-bn.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-bs_values-bs.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-ca_values-ca.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-cs_values-cs.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-da_values-da.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-de_values-de.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-el_values-el.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-en-rAU_values-en-rAU.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-en-rCA_values-en-rCA.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-en-rGB_values-en-rGB.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-en-rIN_values-en-rIN.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-en-rXC_values-en-rXC.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-es-rUS_values-es-rUS.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-es_values-es.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-et_values-et.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-eu_values-eu.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-fa_values-fa.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-fi_values-fi.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-fr-rCA_values-fr-rCA.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-fr_values-fr.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-gl_values-gl.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-gu_values-gu.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-h720dp-v13_values-h720dp-v13.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-hdpi-v4_values-hdpi-v4.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-hi_values-hi.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-hr_values-hr.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-hu_values-hu.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-hy_values-hy.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-in_values-in.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-is_values-is.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-it_values-it.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-iw_values-iw.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-ja_values-ja.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-ka_values-ka.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-kk_values-kk.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-km_values-km.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-kn_values-kn.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-ko_values-ko.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-ky_values-ky.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-land_values-land.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-large-v4_values-large-v4.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-ldltr-v21_values-ldltr-v21.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-lo_values-lo.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-lt_values-lt.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-lv_values-lv.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-mk_values-mk.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-ml_values-ml.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-mn_values-mn.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-mr_values-mr.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-ms_values-ms.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-my_values-my.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-nb_values-nb.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-ne_values-ne.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-night-v8_values-night-v8.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-nl_values-nl.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-or_values-or.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-pa_values-pa.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-pl_values-pl.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-port_values-port.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-pt-rBR_values-pt-rBR.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-pt-rPT_values-pt-rPT.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-pt_values-pt.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-ro_values-ro.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-ru_values-ru.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-si_values-si.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-sk_values-sk.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-sl_values-sl.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-sq_values-sq.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-sr_values-sr.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-sv_values-sv.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-sw360dp-v13_values-sw360dp-v13.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-sw400dp-v13_values-sw400dp-v13.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-sw600dp-v13_values-sw600dp-v13.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-sw_values-sw.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-ta_values-ta.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-te_values-te.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-th_values-th.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-tl_values-tl.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-tr_values-tr.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-uk_values-uk.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-ur_values-ur.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-uz_values-uz.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-v11_values-v11.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-v16_values-v16.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-v17_values-v17.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-v18_values-v18.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-v21_values-v21.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-v22_values-v22.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-v23_values-v23.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-v24_values-v24.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-v25_values-v25.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-v26_values-v26.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-v28_values-v28.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-vi_values-vi.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-watch-v20_values-watch-v20.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-watch-v21_values-watch-v21.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-xlarge-v4_values-xlarge-v4.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-zh-rCN_values-zh-rCN.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-zh-rHK_values-zh-rHK.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-zh-rTW_values-zh-rTW.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values-zu_values-zu.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/values_values.arsc.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/logwidgetRelease/xml_log_appwidget_info.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/logwidgetRelease.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-af.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-am.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-ar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-as.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-az.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-b+sr+Latn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-be.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-bg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-bn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-bs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-ca.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-cs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-da.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-de.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-el.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-en-rAU.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-en-rCA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-en-rGB.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-en-rIN.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-en-rXC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-es-rUS.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-es.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-et.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-eu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-fa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-fi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-fr-rCA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-fr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-gl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-gu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-h720dp-v13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-hdpi-v4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-hi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-hr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-hu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-hy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-in.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-is.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-it.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-iw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-ja.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-ka.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-kk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-km.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-kn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-ko.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-ky.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-land.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-large-v4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-ldltr-v21.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-lo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-lt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-lv.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-mk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-ml.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-mn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-mr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-ms.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-my.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-nb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-ne.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-night-v8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-nl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-or.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-pa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-pl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-port.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-pt-rBR.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-pt-rPT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-pt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-ro.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-ru.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-si.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-sk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-sl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-sq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-sr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-sv.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-sw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-sw360dp-v13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-sw400dp-v13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-sw600dp-v13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-sw720dp-land-v13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-ta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-te.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-th.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-tl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-tr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-uk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-ur.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-uz.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-v11.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-v16.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-v17.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-v18.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-v21.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-v22.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-v23.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-v24.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-v25.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-v26.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-v28.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-vi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-watch-v20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-watch-v21.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-xlarge-v4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-zh-rCN.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-zh-rHK.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-zh-rTW.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values-zu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/multi-v2/values.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/logwidgetRelease/out/single/logwidgetRelease.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/metadata_library_dependencies_report/logwidgetRelease/dependencies.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/navigation_json/logwidgetRelease/navigation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/optimized_processed_res/logwidgetRelease/output-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/optimized_processed_res/logwidgetRelease/resources-logwidget-release-optimize.ap_" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/packaged_manifests/logwidgetRelease/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/packaged_manifests/logwidgetRelease/output-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/processed_res/logwidgetRelease/out/output-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/processed_res/logwidgetRelease/out/resources-logwidgetRelease.ap_" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/logwidgetDebug/out/95c94092890fb66ec95c9fef693e3ad718e5e12b2acc27c8ca6dd9ff694dfa75_0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/logwidgetDebug/out/95c94092890fb66ec95c9fef693e3ad718e5e12b2acc27c8ca6dd9ff694dfa75_1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/logwidgetDebug/out/95c94092890fb66ec95c9fef693e3ad718e5e12b2acc27c8ca6dd9ff694dfa75_2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/logwidgetDebug/out/95c94092890fb66ec95c9fef693e3ad718e5e12b2acc27c8ca6dd9ff694dfa75_3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/logwidgetDebug/out/95c94092890fb66ec95c9fef693e3ad718e5e12b2acc27c8ca6dd9ff694dfa75_4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/logwidgetDebug/out/95c94092890fb66ec95c9fef693e3ad718e5e12b2acc27c8ca6dd9ff694dfa75_5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/logwidgetDebug/out/95c94092890fb66ec95c9fef693e3ad718e5e12b2acc27c8ca6dd9ff694dfa75_6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/logwidgetDebug/out/95c94092890fb66ec95c9fef693e3ad718e5e12b2acc27c8ca6dd9ff694dfa75_7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/logwidgetDebug/out/95c94092890fb66ec95c9fef693e3ad718e5e12b2acc27c8ca6dd9ff694dfa75_8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/logwidgetDebug/out/95c94092890fb66ec95c9fef693e3ad718e5e12b2acc27c8ca6dd9ff694dfa75_9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/runtime_symbol_list/logwidgetRelease/R.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/sdk_dependency_data/logwidgetRelease/sdkDependencyData.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/signing_config_versions/logwidgetRelease/signing-config-versions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/source_set_path_map/logwidgetRelease/file-map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/symbol_list_with_package_name/logwidgetRelease/package-aware-r.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-logwidget-release-report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/outputs/sdk-dependencies/logwidgetRelease/sdkDependencies.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logwidget/release/LogWidget-logwidget-release.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logwidget/release/output-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_contact_picture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-mdpi/ic_contact_picture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ic_contact_picture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../libraries/ColorPicker/build/generated/source/buildConfig/debug/it/gmariotti/android/example/colorpicker/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../libraries/chips/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../libraries/chips/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../libraries/chips/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../libraries/chips/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../libraries/chips/build/generated/source/buildConfig/debug/com/android/ex/chips/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../libraries/chips/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsteroidDodge/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AsteroidDodge/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CardDB/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CardDB/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContactWidget/AndroidManifest-free.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactWidget/AndroidManifest-free.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContactWidget/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactWidget/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContactWidget/res-free/layout/main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactWidget/res-free/layout/main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContactWidget/src/us/sbsoft/sbcontactwidget/ContactListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactWidget/src/us/sbsoft/sbcontactwidget/ContactListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Generator/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Generator/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/src/com/abstractwombat/library/IabChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/src/com/abstractwombat/library/IabChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/src/com/abstractwombat/library/RuntimePermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/src/com/abstractwombat/library/RuntimePermissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogLibrary/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LogLibrary/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogLibrary/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LogLibrary/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogLibrary/res/layout/sms_and_call.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LogLibrary/res/layout/sms_and_call.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogLibrary/res/layout/source_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LogLibrary/res/layout/source_list_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogLibrary/res/xml/wechatsource_preferences.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LogLibrary/res/xml/wechatsource_preferences.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogLibrary/src/com/abstractwombat/loglibrary/AdFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LogLibrary/src/com/abstractwombat/loglibrary/AdFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogLibrary/src/com/abstractwombat/loglibrary/GMailLogSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LogLibrary/src/com/abstractwombat/loglibrary/GMailLogSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogLibrary/src/com/abstractwombat/loglibrary/Licensing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LogLibrary/src/com/abstractwombat/loglibrary/Licensing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogLibrary/src/com/abstractwombat/loglibrary/SourceListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LogLibrary/src/com/abstractwombat/loglibrary/SourceListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidManifest-call.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidManifest-call.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidManifest-log.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidManifest-log.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/layout/activity_configuration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/layout/activity_configuration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/layout/configuration_container.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/layout/configuration_container.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abstractwombat/logwidget/ConfigurationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abstractwombat/logwidget/ConfigurationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abstractwombat/logwidget/LogProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abstractwombat/logwidget/LogProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libraries/ColorPicker/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../libraries/ColorPicker/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libraries/chips/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../libraries/chips/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libraries/chips/src/main/java/com/android/ex/chips/DefaultPhotoManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../libraries/chips/src/main/java/com/android/ex/chips/DefaultPhotoManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libraries/chips/src/main/java/com/android/ex/chips/DropdownChipLayouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../libraries/chips/src/main/java/com/android/ex/chips/DropdownChipLayouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libraries/color-picker-view/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../libraries/color-picker-view/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libraries/contacts/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../libraries/contacts/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libraries/iab/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../libraries/iab/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libraries/images/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../libraries/images/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libraries/networking/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../libraries/networking/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\micha\.android\avd\Nexus_5_API_33.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LogWidget" />
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\micha\StudioProjects\Apps\keystore" />
+    <option name="KEY_ALIAS" value="sbsoft" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="1366986920486" />
+        <entry key="$PROJECT_DIR$/../SBLibrary" value="1379694167501" />
+        <entry key="$PROJECT_DIR$/../SBLogLibrary" value="1379698863961" />
+        <entry key="$PROJECT_DIR$/../SBLogWidget" value="1379697120395" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1861" />
+    <option name="height" value="1216" />
+  </component>
+  <component name="ProjectId" id="2EVpIL5Ahf5bEyDmX6640OjZuUG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="AndroidView" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LogWidget" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LogWidget" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LogWidget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ApkExportedModule" value="Apps.LogWidget" />
+    <property name="DEBUGGABLE_DEVICE" value="samsung-sm_t500-adb-R9WNB039QGJ-w7eIUv._adb-tls-connect._tcp" />
+    <property name="DEBUGGABLE_PROCESS" value="com.abstractwombat.logwidget.debug" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="ExportApk.ApkPath" value="C:\Users\micha\StudioProjects\Apps\LogWidget" />
+    <property name="ExportApk.BuildVariants" value="logwidgetRelease" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android-custom-viewC:/Users/micha/.gradle/caches/modules-2/files-2.1/com.klinkerapps/android-chips/1.3.2/c0e00043f895b42191c775c74d29aebd0920a076/android-chips-1.3.2-sources.jar!/com/android/ex/chips/RecipientEditTextView.java_RecipientEditTextView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/micha/.gradle/caches/modules-2/files-2.1/com.klinkerapps/android-chips/1.3.2/c0e00043f895b42191c775c74d29aebd0920a076/android-chips-1.3.2-sources.jar!/com/android/ex/chips/RecipientEditTextView.java_SELECTED" value="RecipientEditTextView" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../sdk" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../keystore" />
+    <property name="options.lastSelected" value="com.genymobile.genymotion.ide.idea.GdmSettings" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="project.structure.last.edited" value="Build Variants" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="BUILD_VARIANTS_TAB" value="Flavors" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="release" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+    <option name="LAST_EDITED_FLAVOR_OR_DIMENSION" value="logwidget" />
+  </component>
+  <component name="RunManager" selected="Android App.LogWidget">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="ContactWidget" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="Apps.ContactWidget.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogWidget" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Apps.LogWidget.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="do_nothing" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Android App.ContactWidget" />
+      <item itemvalue="Android App.LogWidget" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8749fb1-5ce8-45e4-9b9c-1adffc526d3f" name="Default" comment="" />
+      <created>1478108558175</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1478108558175</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Updated all apps&#10;&#10;  Targeting the LogWidget for re-release.">
+      <created>1662827211052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662827211052</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1861" height="1216" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23452012" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32645404" sideWeight="0.5007553" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3192412" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24977376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29737335" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32645404" sideWeight="0.49924472" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
+    <MESSAGE value="Updated all apps&#10;&#10;  Targeting the LogWidget for re-release." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated all apps&#10;&#10;  Targeting the LogWidget for re-release." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/abstractwombat/logwidget/ConfigurationActivity.java</url>
+          <line>1550</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/abstractwombat/logwidget/ConfigurationActivity.java</url>
+          <line>1544</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../libraries/images/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

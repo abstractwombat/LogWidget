@@ -5,9 +5,6 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.StateListDrawable;
 import android.net.Uri;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.IdRes;
-import android.support.annotation.LayoutRes;
 import android.text.TextUtils;
 import android.text.util.Rfc822Tokenizer;
 import android.view.LayoutInflater;
@@ -247,7 +244,7 @@ public class DropdownChipLayouter {
      * (for photo). Ids for those should be available via {@link #getDisplayNameResId()},
      * {@link #getDestinationResId()}, and {@link #getPhotoResId()}.
      */
-    protected @LayoutRes int getItemLayoutResId(AdapterType type) {
+    protected int getItemLayoutResId(AdapterType type) {
         switch (type) {
             case BASE_RECIPIENT:
                 return R.layout.chips_autocomplete_recipient_dropdown_item;
@@ -265,7 +262,7 @@ public class DropdownChipLayouter {
      * (for photo). Ids for those should be available via {@link #getDisplayNameResId()},
      * {@link #getDestinationResId()}, and {@link #getPhotoResId()}.
      */
-    protected @LayoutRes int getAlternateItemLayoutResId(AdapterType type) {
+    protected int getAlternateItemLayoutResId(AdapterType type) {
         switch (type) {
             case BASE_RECIPIENT:
                 return R.layout.chips_autocomplete_recipient_dropdown_item;
@@ -280,7 +277,7 @@ public class DropdownChipLayouter {
      * Returns a resource ID representing an image which should be shown when ther's no relevant
      * photo is available.
      */
-    protected @DrawableRes int getDefaultPhotoResId() {
+    protected int getDefaultPhotoResId() {
         return R.drawable.ic_contact_picture;
     }
 
@@ -288,7 +285,7 @@ public class DropdownChipLayouter {
      * Returns an id for TextView in an item View for showing a display name. By default
      * {@link android.R.id#title} is returned.
      */
-    protected @IdRes int getDisplayNameResId() {
+    protected int getDisplayNameResId() {
         return android.R.id.title;
     }
 
@@ -297,7 +294,7 @@ public class DropdownChipLayouter {
      * (an email address or a phone number).
      * By default {@link android.R.id#text1} is returned.
      */
-    protected @IdRes int getDestinationResId() {
+    protected int getDestinationResId() {
         return android.R.id.text1;
     }
 
@@ -305,7 +302,7 @@ public class DropdownChipLayouter {
      * Returns an id for TextView in an item View for showing the type of the destination.
      * By default {@link android.R.id#text2} is returned.
      */
-    protected @IdRes int getDestinationTypeResId() {
+    protected int getDestinationTypeResId() {
         return android.R.id.text2;
     }
 
@@ -313,7 +310,7 @@ public class DropdownChipLayouter {
      * Returns an id for ImageView in an item View for showing photo image for a person. In default
      * {@link android.R.id#icon} is returned.
      */
-    protected @IdRes int getPhotoResId() {
+    protected int getPhotoResId() {
         return android.R.id.icon;
     }
 
@@ -321,7 +318,7 @@ public class DropdownChipLayouter {
      * Returns an id for ImageView in an item View for showing the delete button. In default
      * {@link android.R.id#icon1} is returned.
      */
-    protected @IdRes int getDeleteResId() { return android.R.id.icon1; }
+    protected int getDeleteResId() { return android.R.id.icon1; }
 
     /**
      * A holder class the view. Uses the getters in DropdownChipLayouter to find the id of the
